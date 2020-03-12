@@ -101,6 +101,7 @@ class Particle:
 
     def velocity(self, k, Cg):
         self.vel = utils.computeVelocity(k, self.layers, Cg)
+        x = Particle()
 
     def update(self,x):
 

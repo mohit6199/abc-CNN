@@ -241,25 +241,26 @@ class abcCNN:
                 	k=randint(0,self.pop_size)
 
                 self.population.particle[j].velocity(self.population.particle[k].layers, Cg)
-
+                particle_v = Particle( min_layer, max_layer, input_width, input_height, input_channels, conv_prob, pool_prob, fc_prob, max_conv_kernel, max_out_ch, max_fc_neurons, output_dim)
+                particle_v.layers = self.population.particle[j].vel
 
                 print('Neighbouring food source - NEW architecture(Velocity): ')
-                print(self.population.particle[j].vel)
+                print(particle_v)
 
                 # Compute the acc in the updated particle
                 self.population.particle[j].model_compile(dropout_rate)
                 hist = self.population.particle[j].model_fit(self.x_train, self.y_train, batch_size=self.batch_size, epochs=self.epochs)
                 self.population.particle[j].model_delete()
 
-                self.population.particle[j].vel.model_compile(dropout_rate)
-                hist_vel = self.population.particle[j].vel.model_fit(self.x_train, self.y_train, batch_size=self.batch_size, epochs=self.epochs)
-                self.population.particle[j].vel.model_delete()
+                particle_v.model_compile(dropout_rate)
+                hist_vel = particle_v.model_fit(self.x_train, self.y_train, batch_size=self.batch_size, epochs=self.epochs)
+                particle_v.model_delete()
 
                 self.population.particle[j].acc = hist.history['accuracy'][-1]
                 self.population.particle[j].vel_acc = hist_vel.history['accuracy'][-1]
 
                 if(self.population.particle[j].vel_acc > self.population.particle[j].acc):
-                	self.population.particle[j] = deepcopy(self.population.particle[j].vel)
+                	self.population.particle[j] = deepcopy(particle_v)
                      
 
 
