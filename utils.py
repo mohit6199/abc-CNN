@@ -1,6 +1,21 @@
 import numpy as np
 from copy import deepcopy
 
+import keras.backend
+from keras.models import Model, Sequential
+from keras.layers import Input, Add, Dense, Dropout, Flatten
+from keras.layers import Activation, Conv2D, MaxPooling2D, AveragePooling2D
+from keras.layers.advanced_activations import LeakyReLU
+from keras import regularizers
+from keras.optimizers import Adam, Nadam
+from keras.preprocessing.image import ImageDataGenerator
+
+from keras.layers.normalization import BatchNormalization
+
+import os
+import tensorflow as tf
+from copy import deepcopy
+
 try:
     # Python 2 module
     from itertools import izip_longest as zip_longest
@@ -46,53 +61,55 @@ def add_pool(layers, fc_prob, num_pool_layers, max_pool_layers, max_out_ch, max_
     return layers, pool_layers
 
 
-def differenceConvPool(p1, p2):
+def differenceConvPool(p1, p2, const):
     diff = []
 
     for comb in zip_longest(p1, p2):
         if comb[0] != None and comb[1] != None:
-            if comb[0]["type"] == comb[1]["type"]:
-                diff.append({"type": "keep"})
-            else:
+            if np.random.uniform() <= const:
                 diff.append(comb[0])
+            else:
+                diff.append(comb[1])
 
         elif comb[0] != None and comb[1] == None:
             diff.append(comb[0])
 
-        elif comb[0] == None and comb[1] != None:
-            diff.append({"type": "remove"})
+
     
     return diff
 
 
-def differenceFC(p1, p2):
+def differenceFC(p1, p2, const):
     diff = []
 
     # Compute the difference from the end to the begin
     for comb in zip_longest(p1[::-1], p2[::-1]):
         if comb[0] != None and comb[1] != None:
-            diff.append({"type": "keep_fc"})
+            if np.random.uniform() <= const:
+                diff.append(comb[0])
+            else:
+                diff.append(comb[1])
+
         elif comb[0] != None and comb[1] == None:
             diff.append(comb[0])
-        elif comb[0] == None and comb[1] != None:
-            diff.append({"type": "remove_fc"})
+
 
     diff = diff[::-1]
     
     return diff
 
 
-def computeDifference(p1, p2):
+def computeDifference(p1, p2, const):
     diff = []
     # First, find the index where the fully connected layers start in each particle
     p1fc_idx = next((index for (index, d) in enumerate(p1) if d["type"] == "fc"))
     p2fc_idx = next((index for (index, d) in enumerate(p2) if d["type"] == "fc"))
 
     # Compute the difference only between the convolution and pooling layers
-    diff.extend(differenceConvPool(p1[0:p1fc_idx], p2[0:p2fc_idx]))
+    diff.extend(differenceConvPool(p1[0:p1fc_idx], p2[0:p2fc_idx],const))
     
     # Compute the difference between the fully connected layers 
-    diff.extend(differenceFC(p1[p1fc_idx:], p2[p2fc_idx:]))
+    diff.extend(differenceFC(p1[p1fc_idx:], p2[p2fc_idx:],const))
     
     keep_all_layers = True
     for i in range(len(diff)):
@@ -102,97 +119,42 @@ def computeDifference(p1, p2):
 
     return diff, keep_all_layers
 
-def velocityConvPool(diff_pBest, diff_gBest, Cg):
-    vel = []
 
-    for comb in zip_longest(diff_pBest, diff_gBest):
-        if np.random.uniform() <= Cg:
-            if comb[1] != None:
-                vel.append(comb[1])
-            else:
-                vel.append({"type": "remove"})
+def generateNewSolution(p1,p2):#p1 is the proper one and the p2 is the random neighbour one
+    l1 = len(p1)
+    l2 = len(p2)
+    new_p = []
+    p1_fc_idx = next((index for (index, d) in enumerate(p1) if d["type"] == "fc" or d["type"] == "keep_fc" or d["type"] == "remove_fc"))
+    p2_fc_idx = next((index for (index, d) in enumerate(p2) if d["type"] == "fc" or d["type"] == "keep_fc" or d["type"] == "remove_fc"))
+    #print("pos of fc_layer = ",p1_fc_idx ,"  ",p2_fc_idx)
+    pos_conv = np.random.randint(0,min(p1_fc_idx,p2_fc_idx))
+    #print(pos_conv)
+    #pos_fc = np.random.randint(min(p1_fc_idx,p2_fc_idx),min(l1,l2))
+    while p1[pos_conv]['type'] != 'conv' and p2[pos_conv]['type']!= 'conv':
+        pos_conv += 1
+        if pos_conv>min(p1_fc_idx,p2_fc_idx):
+            pos_conv = 0
+
+    #print("print pos of conv =",pos_conv)
+    #print(pos_fc)
+    out1 = p1[pos_conv]['ou_c']
+    out2 = p2[pos_conv]['ou_c']
+    #print("out1 = ",out1)
+    #print("out2 = ", out2)
+    r = np.random.uniform()
+    #print(out1 , "+" , r , "(" , out1 , "-" , out2 , ")")
+    new_out =int(out1 + r*(out1-out2))
+    #print("new Out = ",new_out)
+    if new_out < 3:
+        new_out = 3
+    for i in range(0,l1):
+        #print(i)
+        if i != pos_conv:
+            new_p.append(p1[i])
         else:
-            if comb[0] != None:
-                vel.append(comb[0])
-            else:
-                vel.append({"type": "remove"})
+            x = {'type': 'conv', 'ou_c': new_out, 'kernel': p1[i]['kernel']}
+            new_p.append(x)
 
-    return vel
-
-def velocityFC(diff_pBest, diff_gBest, Cg):
-    vel = []
-
-    for comb in zip_longest(diff_pBest[::-1], diff_gBest[::-1]):
-        if np.random.uniform() <= Cg:
-            if comb[1] != None:
-                vel.append(comb[1])
-            else:
-                vel.append({"type": "remove_fc"})
-        else:
-            if comb[0] != None:
-                vel.append(comb[0])
-            else:
-                vel.append({"type": "remove_fc"})
-    
-    vel = vel[::-1]
-
-    return vel
-
-
-def computeVelocity(k, x, Cg):
-    diff, keep_all = computeDifference(k, x)
-    velocity = []
-
-    # Find the index where the fully connected layers start in each particle
-    dp_fc_idx = next((index for (index, d) in enumerate(diff) if d["type"] == "fc" or d["type"] == "keep_fc" or d["type"] == "remove_fc"))
-    dg_fc_idx = next((index for (index, d) in enumerate(x) if d["type"] == "fc" or d["type"] == "keep_fc" or d["type"] == "remove_fc"))
-
-    # Compute the velocity only between the convolution and pooling layers
-    velocity.extend(velocityConvPool(diff[0:dp_fc_idx], x[0:dg_fc_idx], Cg))
-
-    # Compute the velocity between the fully connected layers
-    velocity.extend(velocityFC(diff_pBest[dp_fc_idx:], x[dg_fc_idx:], Cg))
-
-    return velocity
-
-def updateConvPool(p, vel):
-    new_p = []
-
-    for comb in zip_longest(p, vel):
-        if comb[1]["type"] != "remove":
-            if comb[1]["type"] == "keep":
-                new_p.append(comb[0])
-            else:
-                new_p.append(comb[1])
-
-    return new_p
-
-
-def updateFC(p, vel):
-    new_p = []
-
-    for comb in zip_longest(p[::-1], vel[::-1]):
-        if comb[1]["type"] != "remove_fc":
-            if comb[1]["type"] == "keep_fc":
-                new_p.append(comb[0])
-            else:
-                new_p.append(comb[1])
-
-    new_p = new_p[::-1]
-
-    return new_p
-
-
-def updateParticle(p, velocity):
-    new_p = []
-
-    dp_fc_idx = next((index for (index, d) in enumerate(p) if d["type"] == "fc"))
-    dg_fc_idx = next((index for (index, d) in enumerate(velocity) if d["type"] == "fc" or d["type"] == "keep_fc" or d["type"] == "remove_fc"))
-
-    # Update only convolution and pooling layers
-    new_p.extend(updateConvPool(p[0:dp_fc_idx], velocity[0:dg_fc_idx]))
-
-    # Update only fully connected layers
-    new_p.extend(updateFC(p[dp_fc_idx:], velocity[dg_fc_idx:]))
-        
+    #p1[pos_conv]['ou_c'] = new_out
+    #print(new_p)
     return new_p

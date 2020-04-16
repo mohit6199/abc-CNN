@@ -1,4 +1,4 @@
-from particle import Particle
+from particle import foodSource
 
 class Population:
     def __init__(self, pop_size, min_layer, max_layer, input_width, input_height, input_channels, conv_prob, pool_prob, fc_prob, max_conv_kernel, max_out_ch, max_fc_neurons, output_dim):
@@ -12,4 +12,4 @@ class Population:
 
         self.particle = []
         for i in range(pop_size):
-            self.particle.append(Particle(min_layer, max_layer, max_pool_layers, input_width, input_height, input_channels, conv_prob, pool_prob, fc_prob, max_conv_kernel, max_out_ch, max_fc_neurons, output_dim))
+            self.particle.append(foodSource(min_layer, max_layer, max_pool_layers, input_width, input_height, input_channels, conv_prob, pool_prob, fc_prob, max_conv_kernel, max_out_ch, max_fc_neurons, output_dim))

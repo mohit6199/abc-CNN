@@ -20,22 +20,23 @@ if __name__ == '__main__':
     #dataset = "fashion-mnist"
     # dataset = "mnist-random-background"
     # dataset = "mnist-background-images"
-    
+
+    limit = 1
     number_runs = 1
-    number_iterations = 2
+    number_iterations = 5
     population_size = 5
 
     batch_size_abc = 64
     batch_size_full_training = 64
     
     epochs_abc = 1
-    epochs_full_training = 10
+    epochs_full_training = 1
     
     max_conv_output_channels = 256
     max_fully_connected_neurons = 300
 
     min_layer = 3
-    max_layer = 20
+    max_layer = 10
 
     # Probability of each layer type (should sum to 1)
     probability_convolution = 0.6
@@ -55,8 +56,8 @@ if __name__ == '__main__':
 
     all_gBest_metrics = np.zeros((number_runs, 2))
     runs_time = []
-    all_gbest_par = []
-    best_gBest_acc = 0
+    all_best_accuracy = []
+    all_discarded_best_accuracy = []
 
     for i in range(number_runs):
         print("Run number: " + str(i))
@@ -65,13 +66,71 @@ if __name__ == '__main__':
             batch_size=batch_size_abc, epochs=epochs_abc, min_layer=min_layer, max_layer=max_layer, \
             conv_prob=probability_convolution, pool_prob=probability_pooling, \
             fc_prob=probability_fully_connected, max_conv_kernel=max_conv_kernel_size, \
-            max_out_ch=max_conv_output_channels, max_fc_neurons=max_fully_connected_neurons, dropout_rate=dropout)
+            max_out_ch=max_conv_output_channels, max_fc_neurons=max_fully_connected_neurons, dropout_rate=dropout,limit = limit)
 
-        abc.fit(Cg=Cg, dropout_rate=dropout)
+        print("Final losses = ", abc.loss)
+        print("Final Accuracies = ",abc.accuracy)
+        print("Final Trial = ", abc.trial)
 
-        print(abc.gBest_acc)
+        #Save the final loss and accuracy of the run
+        np.save(results_path + "final_loss_" + str(i) + "_run.npy", abc.loss)
+        np.save(results_path + "final_accuracy_" + str(i) + "_run.npy", abc.accuracy)
 
-        # Plot current gBest
+        minLossIndex = abc.loss.index(min(abc.loss))
+
+        print("The best model produced is as follows")
+        print("the model = " , abc.population.particle[minLossIndex])
+        print("Accuracy = ",abc.population.particle[minLossIndex].accuracy)
+        print("Loss = ", abc.population.particle[minLossIndex].loss)
+
+        all_best_accuracy.append(abc.population.particle[minLossIndex].accuracy)
+
+        best_model_yaml = abc.population.particle[minLossIndex].model.to_yaml()
+        with open(results_path + "best_model_" + str(i) + "_run.yaml", "w") as yaml_file:
+            yaml_file.write(best_model_yaml)
+        # Save best gBest model weights to HDF5 file
+        abc.population.particle[minLossIndex].model.save_weights(results_path + "best_model_weights_" + str(i) + "_run.h5")
+
+        print(np.transpose(abc.allLosses))
+        print("\n")
+        print(np.transpose(abc.allAccuracies))
+
+        print("BEST DISACRDED SOLUTION = ",abc.discardedBestSolution)
+        print("Best Discarded soln accuracy = ",abc.discardedBestSolution.accuracy)
+
+        all_discarded_best_accuracy.append(abc.discardedBestSolution.accuracy)
+
+        best_discarded_model_yaml = abc.discardedBestSolution.model.to_yaml()
+        with open(results_path + "best_discarded_model_" + str(i) + "_run.yaml", "w") as yaml_file:
+            yaml_file.write(best_discarded_model_yaml)
+        # Save best gBest model weights to HDF5 file
+        abc.discardedBestSolution.model.save_weights(results_path + "best_discarded_model_weights_" + str(i) + "_run.h5")
+
+
+
+        #CALCULATES THE TIME TAKEN
+        end_time = time.time()
+        running_time = end_time - start_time
+        runs_time.append(running_time)
+        print("This run took: " + str(running_time) + " seconds.")
+
+
+        for x in range(0,population_size):
+            plt.plot(np.transpose(abc.allAccuracies)[x])
+        plt.xlabel("Iteration")
+        plt.ylabel("Accuracy")
+        plt.savefig(results_path + "accuracy_run_" + str(i) + ".png")
+        plt.close()
+
+    print("RUNS OVER \n")
+    print("ALL the best Accuracies = ",all_best_accuracy)
+    print("All best accuracies average = ", sum(all_best_accuracy)/number_runs)
+    print("time taken for all runs = ",runs_time)
+
+
+
+
+    '''    # Plot current gBest
         matplotlib.use('Agg')
         plt.plot(abc.gBest_acc)
         plt.xlabel("Iteration")
@@ -138,3 +197,4 @@ if __name__ == '__main__':
                 print(output_str, file=f)
             except SyntaxError:
                 print >> f, output_str
+'''
