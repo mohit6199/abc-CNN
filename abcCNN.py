@@ -260,7 +260,7 @@ class abcCNN:
 
 
             print("\n####-------- SCOUT BEE PHASE -------#########\n")
-            if max(self.trial) >= self.limit:
+            if max(self.trial) >= self.limit and iteration < self.n_iter-1:
                 maxTrailPos = self.trial.index(max(self.trial))
 
                 if self.discardedBestSolution == None:
