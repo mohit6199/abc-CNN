@@ -23,14 +23,14 @@ if __name__ == '__main__':
 
     limit = 1
     number_runs = 1
-    number_iterations = 5
-    population_size = 5
+    number_iterations = 3
+    population_size = 3
 
     batch_size_abc = 64
     batch_size_full_training = 64
     
     epochs_abc = 1
-    epochs_full_training = 1
+    epochs_full_training = 5
     
     max_conv_output_channels = 256
     max_fully_connected_neurons = 300
@@ -57,7 +57,12 @@ if __name__ == '__main__':
     all_gBest_metrics = np.zeros((number_runs, 2))
     runs_time = []
     all_best_accuracy = []
+    all_best_losses = []
     all_discarded_best_accuracy = []
+    all_discarded_best_losses = []
+    #for models that are trained for complete number of epochs
+    all_complete_best_accuracy = []
+    all_complete_disacrded_best_accuracy = []
 
     for i in range(number_runs):
         print("Run number: " + str(i))
@@ -78,27 +83,46 @@ if __name__ == '__main__':
 
         minLossIndex = abc.loss.index(min(abc.loss))
 
-        print("The best model produced is as follows")
+        print("\n\n\nThe best model produced is as follows")
         print("the model = " , abc.population.particle[minLossIndex])
         print("Accuracy = ",abc.population.particle[minLossIndex].accuracy)
         print("Loss = ", abc.population.particle[minLossIndex].loss)
 
-        all_best_accuracy.append(abc.population.particle[minLossIndex].accuracy)
 
+        #Trains the best model for more epochs and saves the metrics
+        hist,eval = abc.model_fit_comp(min_loss_index=minLossIndex,epochs_full_training=epochs_full_training)
+        #print("\n\n\nComplete training hist = ",hist)
+        print("\n\n\nComplete training accuracy = ",hist.history["accuracy"][-1])
+        print("Complete training loss = ", hist.history["loss"][-1])
+        print("Complete training eval = ", eval)
+
+        all_best_accuracy.append(hist.history["accuracy"][-1])
+        all_best_losses.append((hist.history["loss"][-1]))
+
+        #Saves the best Model in Yaml Form
         best_model_yaml = abc.population.particle[minLossIndex].model.to_yaml()
         with open(results_path + "best_model_" + str(i) + "_run.yaml", "w") as yaml_file:
             yaml_file.write(best_model_yaml)
-        # Save best gBest model weights to HDF5 file
+        # Save best Best model weights to HDF5 file
         abc.population.particle[minLossIndex].model.save_weights(results_path + "best_model_weights_" + str(i) + "_run.h5")
 
         print(np.transpose(abc.allLosses))
         print("\n")
         print(np.transpose(abc.allAccuracies))
 
-        print("BEST DISACRDED SOLUTION = ",abc.discardedBestSolution)
+        print("\n\nBEST DISACRDED SOLUTION = ",abc.discardedBestSolution)
         print("Best Discarded soln accuracy = ",abc.discardedBestSolution.accuracy)
 
-        all_discarded_best_accuracy.append(abc.discardedBestSolution.accuracy)
+
+
+        disacrded_hist,discarded_eval = abc.model_fit_comp_disacrded(epochs_full_training)
+        #print("\n\n\nComplete training hist of disacrded Solution = ", disacrded_hist)
+        print("\n\n\nComplete training accuracy = ", disacrded_hist.history["accuracy"][-1])
+        print("Complete training loss = ", disacrded_hist.history["loss"][-1])
+        print("Complete training eval of discarded solution = ", discarded_eval)
+
+        all_discarded_best_accuracy.append(disacrded_hist.history["accuracy"][-1])
+        all_discarded_best_losses.append(disacrded_hist.history["loss"][-1])
 
         best_discarded_model_yaml = abc.discardedBestSolution.model.to_yaml()
         with open(results_path + "best_discarded_model_" + str(i) + "_run.yaml", "w") as yaml_file:
@@ -122,9 +146,11 @@ if __name__ == '__main__':
         plt.savefig(results_path + "accuracy_run_" + str(i) + ".png")
         plt.close()
 
-    print("RUNS OVER \n")
+    print("\n\nRUNS OVER \n")
     print("ALL the best Accuracies = ",all_best_accuracy)
+    print("ALL the best Losses = ", all_best_losses)
     print("All best accuracies average = ", sum(all_best_accuracy)/number_runs)
+    print("All best losses average = ", sum(all_best_losses) / number_runs)
     print("time taken for all runs = ",runs_time)
 
 

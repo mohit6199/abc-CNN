@@ -10,6 +10,7 @@ from keras.layers import Activation, Conv2D, MaxPooling2D, AveragePooling2D
 from keras.layers.advanced_activations import LeakyReLU
 from keras import regularizers 
 from keras.optimizers import Adam, Nadam
+
 from keras.preprocessing.image import ImageDataGenerator
 
 from keras.layers.normalization import BatchNormalization
@@ -223,9 +224,9 @@ class foodSource:
     def model_fit(self, x_train, y_train, batch_size, epochs):
         # TODO: add option to only use a sample size of the dataset
         if self.loss == -1:
-            hist1 = self.model.fit(x=x_train, y=y_train, validation_split=0.0, batch_size=batch_size, epochs=epochs)
+            hist1 = self.model.fit(x=x_train, y=y_train, validation_split=0.0, batch_size=batch_size, epochs=epochs,verbose = 2)
             loss1 = hist1.history['loss'][-1]
-            hist2 = self.model2.fit(x=x_train, y=y_train, validation_split=0.0, batch_size=batch_size, epochs=epochs)
+            hist2 = self.model2.fit(x=x_train, y=y_train, validation_split=0.0, batch_size=batch_size, epochs=epochs,verbose = 2)
             loss2 = hist2.history['loss'][-1]
 
             self.loss = min(loss1, loss2)
@@ -240,7 +241,7 @@ class foodSource:
                 self.model = self.model2
                 self.accuracy = hist2.history['accuracy'][-1]
         else:
-            hist2 = self.model2.fit(x=x_train, y=y_train, validation_split=0.0, batch_size=batch_size, epochs=epochs)
+            hist2 = self.model2.fit(x=x_train, y=y_train, validation_split=0.0 ,batch_size=batch_size, epochs=epochs,verbose = 2)
             loss2 = hist2.history['loss'][-1]
             if loss2 < self.loss:
                 self.loss = loss2
@@ -258,10 +259,11 @@ class foodSource:
     def calculateFitness(self):
         self.fitness = 1/(1 + self.loss)
 
-    def model_fit_complete(self, x_train, y_train, batch_size, epochs):
-        hist = self.model.fit(x=x_train, y=y_train, validation_split=0.0, batch_size=batch_size, epochs=epochs)
-
-        return hist
+    def model_fit_complete(self, x_train, y_train,x_test,y_test ,batch_size, epochs):
+        hist = self.model.fit(x=x_train, y=y_train, validation_split=0.0, batch_size=batch_size, epochs=epochs,verbose = 2)
+        results = self.model.evaluate(x = x_test,y=y_test,batch_size=batch_size,verbose = 2)
+        print("Model metrics names are = ",self.model.metrics_names)
+        return hist,results
     
     def model_delete(self):
         # This is used to free up memory during PSO training
