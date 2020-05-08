@@ -283,8 +283,8 @@ class abcCNN:
             print("TRIAL = ",self.trial)
             self.allLosses.append(self.loss)
             self.allAccuracies.append(self.accuracy)
-            print("ALL LOSSES = ",self.allLosses)
-            print("ALL ACCURACIES = ",self.allAccuracies)
+            #print("ALL LOSSES = ",self.allLosses)
+            #print("ALL ACCURACIES = ",self.allAccuracies)
 
     def model_fit_comp(self,min_loss_index,epochs_full_training):
         hist,results = self.population.particle[min_loss_index].model_fit_complete(self.x_full_train,self.y_full_train,self.x_test,self.y_test,self.batch_size,epochs_full_training)

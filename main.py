@@ -22,15 +22,15 @@ if __name__ == '__main__':
     # dataset = "mnist-background-images"
 
     limit = 1
-    number_runs = 1
-    number_iterations = 3
-    population_size = 3
+    number_runs = 5
+    number_iterations = 10
+    population_size = 10
 
     batch_size_abc = 64
     batch_size_full_training = 64
     
     epochs_abc = 1
-    epochs_full_training = 5
+    epochs_full_training = 50
     
     max_conv_output_channels = 256
     max_fully_connected_neurons = 300

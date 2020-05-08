@@ -1,0 +1,3043 @@
+Run number: 0
+Initializing population...
+
+------------ITERATION =  1 ---------------------
+
+
+####-------- EMPLOYED BEE PHASE -------#########
+
+Food Source =  0
+Epoch 1/1
+ - 11s - loss: 0.5156 - accuracy: 0.7700
+Epoch 1/1
+ - 8s - loss: 0.6679 - accuracy: 0.6767
+Loss =  0.5155968409776688
+Food Source =  1
+Epoch 1/1
+ - 3s - loss: 15.2790 - accuracy: 0.5283
+Epoch 1/1
+ - 3s - loss: 15.2306 - accuracy: 0.5467
+Loss =  15.230612856547038
+Food Source =  2
+Epoch 1/1
+ - 3s - loss: 29.8344 - accuracy: 0.5167
+Epoch 1/1
+ - 3s - loss: 29.6729 - accuracy: 0.4717
+Loss =  29.67287150065104
+Food Source =  3
+Epoch 1/1
+ - 2s - loss: 12.6385 - accuracy: 0.5350
+Epoch 1/1
+ - 2s - loss: 12.6069 - accuracy: 0.5500
+Loss =  12.606897811889649
+Food Source =  4
+Epoch 1/1
+ - 5s - loss: 10.8989 - accuracy: 0.5150
+Epoch 1/1
+ - 5s - loss: 11.0150 - accuracy: 0.5167
+Loss =  10.898930002848306
+Food Source =  5
+Epoch 1/1
+ - 5s - loss: 0.6887 - accuracy: 0.6383
+Epoch 1/1
+ - 4s - loss: 0.7188 - accuracy: 0.6133
+Loss =  0.6886743219693502
+Food Source =  6
+Epoch 1/1
+ - 2s - loss: 0.6380 - accuracy: 0.6867
+Epoch 1/1
+ - 2s - loss: 0.6878 - accuracy: 0.6433
+Loss =  0.6379816102981567
+Food Source =  7
+Epoch 1/1
+ - 3s - loss: 0.5315 - accuracy: 0.7533
+Epoch 1/1
+ - 3s - loss: 0.5046 - accuracy: 0.7583
+Loss =  0.5045889019966125
+Food Source =  8
+Epoch 1/1
+ - 3s - loss: 0.6655 - accuracy: 0.6667
+Epoch 1/1
+ - 2s - loss: 0.6406 - accuracy: 0.6783
+Loss =  0.640623615582784
+Food Source =  9
+Epoch 1/1
+ - 1s - loss: 0.6452 - accuracy: 0.6733
+Epoch 1/1
+ - 1s - loss: 0.6111 - accuracy: 0.6867
+Loss =  0.611112752755483
+
+####-------- EMPLOYED BEE PHASE ENDS -------#########
+
+Probabilities = 
+ [0.9934632055075018, 0.18343061495984903, 0.14414748100021252, 0.1995179085282553, 0.21380267061599711, 0.901889383985984, 0.9267064802702291, 1.0, 0.9253751798616745, 0.9404936336584668]
+
+####-------- ONLOOKER BEE PHASE -------#########
+
+bee =  0
+foodSource =  0
+Epoch 1/1
+ - 7s - loss: 0.5415 - accuracy: 0.7383
+bee =  1
+foodSource =  1
+bee =  1
+foodSource =  2
+bee =  1
+foodSource =  3
+bee =  1
+foodSource =  4
+Epoch 1/1
+ - 4s - loss: 10.9382 - accuracy: 0.5383
+bee =  2
+foodSource =  5
+Epoch 1/1
+ - 5s - loss: 0.7309 - accuracy: 0.6000
+bee =  3
+foodSource =  6
+Epoch 1/1
+ - 2s - loss: 0.7118 - accuracy: 0.6000
+bee =  4
+foodSource =  7
+Epoch 1/1
+ - 3s - loss: 0.5694 - accuracy: 0.7233
+bee =  5
+foodSource =  8
+Epoch 1/1
+ - 2s - loss: 0.6787 - accuracy: 0.6250
+bee =  6
+foodSource =  9
+Epoch 1/1
+ - 1s - loss: 0.4702 - accuracy: 0.7817
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+bee =  7
+foodSource =  0
+Epoch 1/1
+ - 6s - loss: 0.6304 - accuracy: 0.7067
+bee =  8
+foodSource =  1
+Epoch 1/1
+ - 3s - loss: 15.4108 - accuracy: 0.5317
+bee =  9
+foodSource =  2
+bee =  9
+foodSource =  3
+Epoch 1/1
+ - 2s - loss: 12.6852 - accuracy: 0.5350
+
+####-------- ONLOOKER BEE PHASE ENDS -------#########
+
+Trial =  [2, 2, 1, 2, 1, 1, 1, 2, 2, 0]
+
+####-------- SCOUT BEE PHASE -------#########
+
+0 th particle was Discarded from the population
+
+####-------- SCOUT BEE PHASE ENDS -------#########
+
+LOSS =  [0.5155968409776688, 15.230612856547038, 29.67287150065104, 12.606897811889649, 10.898930002848306, 0.6886743219693502, 0.6379816102981567, 0.5045889019966125, 0.640623615582784, 0.4701845935980479]
+TRIAL =  [0, 2, 1, 2, 1, 1, 1, 2, 2, 0]
+
+------------ITERATION =  2 ---------------------
+
+
+####-------- EMPLOYED BEE PHASE -------#########
+
+Food Source =  0
+Epoch 1/1
+ - 2s - loss: 0.6170 - accuracy: 0.6900
+Epoch 1/1
+ - 2s - loss: 0.6456 - accuracy: 0.6900
+Loss =  0.6169514862696329
+Food Source =  1
+Epoch 1/1
+ - 2s - loss: 15.2189 - accuracy: 0.5350
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+Loss =  15.218948148091634
+Food Source =  2
+Epoch 1/1
+ - 3s - loss: 29.5373 - accuracy: 0.5333
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+Loss =  29.53727518717448
+Food Source =  3
+Epoch 1/1
+ - 2s - loss: 12.6691 - accuracy: 0.5267
+Loss =  12.606897811889649
+Food Source =  4
+Epoch 1/1
+ - 7s - loss: 10.9721 - accuracy: 0.5217
+Loss =  10.898930002848306
+Food Source =  5
+Epoch 1/1
+ - 5s - loss: 0.7288 - accuracy: 0.5750
+Loss =  0.6886743219693502
+Food Source =  6
+Epoch 1/1
+ - 2s - loss: 0.6626 - accuracy: 0.6533
+Loss =  0.6379816102981567
+Food Source =  7
+Epoch 1/1
+ - 3s - loss: 0.5518 - accuracy: 0.7250
+Loss =  0.5045889019966125
+Food Source =  8
+Epoch 1/1
+ - 2s - loss: 0.5719 - accuracy: 0.7300
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+Loss =  0.5719007821877797
+Food Source =  9
+Epoch 1/1
+ - 1s - loss: 0.6092 - accuracy: 0.6733
+Loss =  0.4701845935980479
+
+####-------- EMPLOYED BEE PHASE ENDS -------#########
+
+Probabilities = 
+ [0.9183091116053436, 0.18158150098000841, 0.14332954155628028, 0.19724230699241863, 0.21120043011611211, 0.8835531795705595, 0.9078028018870071, 0.9794203735534545, 0.9417618651456191, 1.0]
+
+####-------- ONLOOKER BEE PHASE -------#########
+
+bee =  0
+foodSource =  0
+Epoch 1/1
+ - 2s - loss: 0.6095 - accuracy: 0.6967
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+bee =  1
+foodSource =  1
+Epoch 1/1
+ - 3s - loss: 15.2734 - accuracy: 0.5450
+bee =  2
+foodSource =  2
+bee =  2
+foodSource =  3
+bee =  2
+foodSource =  4
+bee =  2
+foodSource =  5
+Epoch 1/1
+ - 3s - loss: 0.6823 - accuracy: 0.6783
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+bee =  3
+foodSource =  6
+Epoch 1/1
+ - 2s - loss: 0.6609 - accuracy: 0.6617
+bee =  4
+foodSource =  7
+Epoch 1/1
+ - 4s - loss: 0.5590 - accuracy: 0.7100
+bee =  5
+foodSource =  8
+Epoch 1/1
+ - 2s - loss: 0.5592 - accuracy: 0.7350
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+bee =  6
+foodSource =  9
+Epoch 1/1
+ - 1s - loss: 0.6362 - accuracy: 0.6650
+bee =  7
+foodSource =  0
+Epoch 1/1
+ - 2s - loss: 0.5390 - accuracy: 0.7300
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+bee =  8
+foodSource =  1
+bee =  8
+foodSource =  2
+bee =  8
+foodSource =  3
+Epoch 1/1
+ - 2s - loss: 12.6063 - accuracy: 0.5283
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+bee =  9
+foodSource =  4
+bee =  9
+foodSource =  5
+Epoch 1/1
+ - 4s - loss: 0.6305 - accuracy: 0.6667
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+
+####-------- ONLOOKER BEE PHASE ENDS -------#########
+
+Trial =  [0, 1, 0, 0, 2, 0, 3, 4, 0, 2]
+
+####-------- SCOUT BEE PHASE -------#########
+
+Best Discarded Particle Updated with loss =  0.5045889019966125
+7 th particle was Discarded from the population
+
+####-------- SCOUT BEE PHASE ENDS -------#########
+
+LOSS =  [0.5389645258585612, 15.218948148091634, 29.53727518717448, 12.606348864237468, 10.898930002848306, 0.6305037665367127, 0.6379816102981567, 0.5045889019966125, 0.559197738567988, 0.4701845935980479]
+TRIAL =  [0, 1, 0, 0, 2, 0, 3, 0, 0, 2]
+
+------------ITERATION =  3 ---------------------
+
+
+####-------- EMPLOYED BEE PHASE -------#########
+
+Food Source =  0
+Epoch 1/1
+ - 2s - loss: 0.6834 - accuracy: 0.6717
+Loss =  0.5389645258585612
+Food Source =  1
+Epoch 1/1
+ - 2s - loss: 15.3190 - accuracy: 0.4950
+Loss =  15.218948148091634
+Food Source =  2
+Epoch 1/1
+ - 3s - loss: 29.6464 - accuracy: 0.5033
+Loss =  29.53727518717448
+Food Source =  3
+Epoch 1/1
+ - 2s - loss: 12.6703 - accuracy: 0.5633
+Loss =  12.606348864237468
+Food Source =  4
+Epoch 1/1
+ - 3s - loss: 11.0330 - accuracy: 0.5117
+Loss =  10.898930002848306
+Food Source =  5
+Epoch 1/1
+ - 4s - loss: 0.6798 - accuracy: 0.6450
+Loss =  0.6305037665367127
+Food Source =  6
+Epoch 1/1
+ - 2s - loss: 0.6558 - accuracy: 0.6383
+Loss =  0.6379816102981567
+Food Source =  7
+Epoch 1/1
+ - 5s - loss: 0.5897 - accuracy: 0.7000
+Epoch 1/1
+ - 4s - loss: 0.6211 - accuracy: 0.7050
+Loss =  0.5897247501214345
+Food Source =  8
+Epoch 1/1
+ - 3s - loss: 0.6961 - accuracy: 0.6267
+Loss =  0.559197738567988
+Food Source =  9
+Epoch 1/1
+ - 1s - loss: 0.5946 - accuracy: 0.6767
+Loss =  0.4701845935980479
+
+####-------- EMPLOYED BEE PHASE ENDS -------#########
+
+Probabilities = 
+ [0.9597768902438294, 0.18158150098000841, 0.14332954155628028, 0.1972462302297727, 0.21120043011611211, 0.9115075606655767, 0.9078028018870071, 0.9323240448619611, 0.9486198392344236, 1.0]
+
+####-------- ONLOOKER BEE PHASE -------#########
+
+bee =  0
+foodSource =  0
+Epoch 1/1
+ - 2s - loss: 0.5591 - accuracy: 0.7217
+bee =  1
+foodSource =  1
+bee =  1
+foodSource =  2
+bee =  1
+foodSource =  3
+bee =  1
+foodSource =  4
+bee =  1
+foodSource =  5
+Epoch 1/1
+ - 4s - loss: 0.5992 - accuracy: 0.6917
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+bee =  2
+foodSource =  6
+Epoch 1/1
+ - 2s - loss: 0.6518 - accuracy: 0.6583
+bee =  3
+foodSource =  7
+Epoch 1/1
+ - 5s - loss: 0.5784 - accuracy: 0.6917
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+bee =  4
+foodSource =  8
+Epoch 1/1
+ - 2s - loss: 0.6642 - accuracy: 0.6450
+bee =  5
+foodSource =  9
+Epoch 1/1
+ - 1s - loss: 0.7023 - accuracy: 0.6583
+bee =  6
+foodSource =  0
+Epoch 1/1
+ - 2s - loss: 0.6484 - accuracy: 0.6700
+bee =  7
+foodSource =  1
+bee =  7
+foodSource =  2
+bee =  7
+foodSource =  3
+bee =  7
+foodSource =  4
+bee =  7
+foodSource =  5
+Epoch 1/1
+ - 5s - loss: 0.7621 - accuracy: 0.6083
+bee =  8
+foodSource =  6
+Epoch 1/1
+ - 2s - loss: 0.6682 - accuracy: 0.6667
+bee =  9
+foodSource =  7
+Epoch 1/1
+ - 5s - loss: 0.5981 - accuracy: 0.6983
+
+####-------- ONLOOKER BEE PHASE ENDS -------#########
+
+Trial =  [3, 2, 1, 1, 3, 1, 6, 1, 2, 4]
+
+####-------- SCOUT BEE PHASE -------#########
+
+6 th particle was Discarded from the population
+
+####-------- SCOUT BEE PHASE ENDS -------#########
+
+LOSS =  [0.5389645258585612, 15.218948148091634, 29.53727518717448, 12.606348864237468, 10.898930002848306, 0.5992270614703497, 0.6379816102981567, 0.5784123965104421, 0.559197738567988, 0.4701845935980479]
+TRIAL =  [3, 2, 1, 1, 3, 1, 0, 1, 2, 4]
+
+------------ITERATION =  4 ---------------------
+
+
+####-------- EMPLOYED BEE PHASE -------#########
+
+Food Source =  0
+Epoch 1/1
+ - 2s - loss: 0.6582 - accuracy: 0.6833
+Loss =  0.5389645258585612
+Food Source =  1
+Epoch 1/1
+ - 3s - loss: 15.3836 - accuracy: 0.4933
+Loss =  15.218948148091634
+Food Source =  2
+Epoch 1/1
+ - 3s - loss: 29.4953 - accuracy: 0.5183
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+Loss =  29.495328369140626
+Food Source =  3
+Epoch 1/1
+ - 2s - loss: 12.6091 - accuracy: 0.5483
+Loss =  12.606348864237468
+Food Source =  4
+Epoch 1/1
+ - 3s - loss: 10.8771 - accuracy: 0.5417
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+Loss =  10.877129173278808
+Food Source =  5
+Epoch 1/1
+ - 5s - loss: 0.7400 - accuracy: 0.5967
+Loss =  0.5992270614703497
+Food Source =  6
+Epoch 1/1
+ - 3s - loss: 0.6149 - accuracy: 0.6917
+Epoch 1/1
+ - 2s - loss: 0.7448 - accuracy: 0.6017
+Loss =  0.614945334593455
+Food Source =  7
+Epoch 1/1
+ - 3s - loss: 0.5837 - accuracy: 0.6883
+Loss =  0.5784123965104421
+Food Source =  8
+Epoch 1/1
+ - 2s - loss: 0.5845 - accuracy: 0.7033
+Loss =  0.559197738567988
+Food Source =  9
+Epoch 1/1
+ - 1s - loss: 0.7940 - accuracy: 0.5700
+Loss =  0.4701845935980479
+
+####-------- EMPLOYED BEE PHASE ENDS -------#########
+
+Probabilities = 
+ [0.9597768902438294, 0.18158150098000841, 0.14338914204239903, 0.1972462302297727, 0.21140454186648952, 0.927378529363871, 0.9193256489213212, 0.9382892437765326, 0.9486198392344236, 1.0]
+
+####-------- ONLOOKER BEE PHASE -------#########
+
+bee =  0
+foodSource =  0
+Epoch 1/1
+ - 2s - loss: 0.6348 - accuracy: 0.6817
+bee =  1
+foodSource =  1
+bee =  1
+foodSource =  2
+bee =  1
+foodSource =  3
+bee =  1
+foodSource =  4
+bee =  1
+foodSource =  5
+Epoch 1/1
+ - 3s - loss: 0.6735 - accuracy: 0.6550
+bee =  2
+foodSource =  6
+Epoch 1/1
+ - 3s - loss: 0.6769 - accuracy: 0.6717
+bee =  3
+foodSource =  7
+Epoch 1/1
+ - 3s - loss: 0.5282 - accuracy: 0.7283
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+bee =  4
+foodSource =  8
+Epoch 1/1
+ - 2s - loss: 0.6627 - accuracy: 0.6333
+bee =  5
+foodSource =  9
+Epoch 1/1
+ - 1s - loss: 0.6496 - accuracy: 0.6667
+bee =  6
+foodSource =  0
+Epoch 1/1
+ - 2s - loss: 0.6513 - accuracy: 0.6883
+bee =  7
+foodSource =  1
+bee =  7
+foodSource =  2
+bee =  7
+foodSource =  3
+bee =  7
+foodSource =  4
+bee =  7
+foodSource =  5
+bee =  7
+foodSource =  6
+Epoch 1/1
+ - 2s - loss: 0.7635 - accuracy: 0.5600
+bee =  8
+foodSource =  7
+Epoch 1/1
+ - 6s - loss: 0.5960 - accuracy: 0.7217
+bee =  9
+foodSource =  8
+Epoch 1/1
+ - 2s - loss: 0.5083 - accuracy: 0.7517
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+
+####-------- ONLOOKER BEE PHASE ENDS -------#########
+
+Trial =  [6, 3, 0, 2, 0, 3, 2, 1, 0, 6]
+
+####-------- SCOUT BEE PHASE -------#########
+
+0 th particle was Discarded from the population
+
+####-------- SCOUT BEE PHASE ENDS -------#########
+
+LOSS =  [0.5389645258585612, 15.218948148091634, 29.495328369140626, 12.606348864237468, 10.877129173278808, 0.5992270614703497, 0.614945334593455, 0.5282266088326772, 0.5082897158463796, 0.4701845935980479]
+TRIAL =  [0, 3, 0, 2, 0, 3, 2, 1, 0, 6]
+
+------------ITERATION =  5 ---------------------
+
+
+####-------- EMPLOYED BEE PHASE -------#########
+
+Food Source =  0
+Epoch 1/1
+ - 1s - loss: 0.6025 - accuracy: 0.6950
+Epoch 1/1
+ - 1s - loss: 0.6899 - accuracy: 0.6567
+Loss =  0.6025421639283498
+Food Source =  1
+Epoch 1/1
+ - 3s - loss: 15.2450 - accuracy: 0.5050
+Loss =  15.218948148091634
+Food Source =  2
+Epoch 1/1
+ - 3s - loss: 29.5674 - accuracy: 0.4867
+Loss =  29.495328369140626
+Food Source =  3
+Epoch 1/1
+ - 2s - loss: 12.5987 - accuracy: 0.5300
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+Loss =  12.598725941975912
+Food Source =  4
+Epoch 1/1
+ - 4s - loss: 10.8509 - accuracy: 0.4783
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+Loss =  10.85085428873698
+Food Source =  5
+Epoch 1/1
+ - 4s - loss: 0.6574 - accuracy: 0.6883
+Loss =  0.5992270614703497
+Food Source =  6
+Epoch 1/1
+ - 2s - loss: 0.6447 - accuracy: 0.6683
+Loss =  0.614945334593455
+Food Source =  7
+Epoch 1/1
+ - 3s - loss: 0.5587 - accuracy: 0.7217
+Loss =  0.5282266088326772
+Food Source =  8
+Epoch 1/1
+ - 2s - loss: 0.7358 - accuracy: 0.6133
+Loss =  0.5082897158463796
+Food Source =  9
+Epoch 1/1
+ - 1s - loss: 0.6370 - accuracy: 0.6733
+Loss =  0.4701845935980479
+
+####-------- EMPLOYED BEE PHASE ENDS -------#########
+
+Probabilities = 
+ [0.9256669709049866, 0.18158150098000841, 0.14338914204239903, 0.19730074272281314, 0.21165154021814078, 0.927378529363871, 0.9193256489213212, 0.9658180184736687, 0.9772625844602713, 1.0]
+
+####-------- ONLOOKER BEE PHASE -------#########
+
+bee =  0
+foodSource =  0
+Epoch 1/1
+ - 1s - loss: 0.6199 - accuracy: 0.6883
+bee =  1
+foodSource =  1
+bee =  1
+foodSource =  2
+bee =  1
+foodSource =  3
+Epoch 1/1
+ - 2s - loss: 12.6375 - accuracy: 0.5250
+bee =  2
+foodSource =  4
+bee =  2
+foodSource =  5
+Epoch 1/1
+ - 3s - loss: 0.6440 - accuracy: 0.6550
+bee =  3
+foodSource =  6
+Epoch 1/1
+ - 3s - loss: 0.6294 - accuracy: 0.6833
+bee =  4
+foodSource =  7
+Epoch 1/1
+ - 4s - loss: 0.5436 - accuracy: 0.7250
+bee =  5
+foodSource =  8
+Epoch 1/1
+ - 3s - loss: 0.6881 - accuracy: 0.6317
+bee =  6
+foodSource =  9
+Epoch 1/1
+ - 1s - loss: 0.6336 - accuracy: 0.6633
+bee =  7
+foodSource =  0
+Epoch 1/1
+ - 1s - loss: 0.6794 - accuracy: 0.6533
+bee =  8
+foodSource =  1
+Epoch 1/1
+ - 3s - loss: 15.3333 - accuracy: 0.4833
+bee =  9
+foodSource =  2
+bee =  9
+foodSource =  3
+bee =  9
+foodSource =  4
+Epoch 1/1
+ - 6s - loss: 10.9466 - accuracy: 0.5700
+
+####-------- ONLOOKER BEE PHASE ENDS -------#########
+
+Trial =  [2, 5, 1, 1, 1, 5, 4, 3, 2, 8]
+
+####-------- SCOUT BEE PHASE -------#########
+
+Best Discarded Particle Updated with loss =  0.4701845935980479
+9 th particle was Discarded from the population
+
+####-------- SCOUT BEE PHASE ENDS -------#########
+
+LOSS =  [0.6025421639283498, 15.218948148091634, 29.495328369140626, 12.598725941975912, 10.85085428873698, 0.5992270614703497, 0.614945334593455, 0.5282266088326772, 0.5082897158463796, 0.4701845935980479]
+TRIAL =  [2, 5, 1, 1, 1, 5, 4, 3, 2, 0]
+
+------------ITERATION =  6 ---------------------
+
+
+####-------- EMPLOYED BEE PHASE -------#########
+
+Food Source =  0
+Epoch 1/1
+ - 1s - loss: 0.5960 - accuracy: 0.6950
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+Loss =  0.5960346031188964
+Food Source =  1
+Epoch 1/1
+ - 3s - loss: 15.3168 - accuracy: 0.5300
+Loss =  15.218948148091634
+Food Source =  2
+Epoch 1/1
+ - 3s - loss: 29.7276 - accuracy: 0.5483
+Loss =  29.495328369140626
+Food Source =  3
+Epoch 1/1
+ - 2s - loss: 12.7858 - accuracy: 0.5100
+Loss =  12.598725941975912
+Food Source =  4
+Epoch 1/1
+ - 6s - loss: 10.9373 - accuracy: 0.5167
+Loss =  10.85085428873698
+Food Source =  5
+Epoch 1/1
+ - 4s - loss: 0.7803 - accuracy: 0.5783
+Loss =  0.5992270614703497
+Food Source =  6
+Epoch 1/1
+ - 3s - loss: 0.6103 - accuracy: 0.6800
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+Loss =  0.610335517724355
+Food Source =  7
+Epoch 1/1
+ - 3s - loss: 0.5336 - accuracy: 0.7183
+Loss =  0.5282266088326772
+Food Source =  8
+Epoch 1/1
+ - 2s - loss: 0.4869 - accuracy: 0.7750
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+Loss =  0.4868531620502472
+Food Source =  9
+Epoch 1/1
+ - 1s - loss: 0.5985 - accuracy: 0.7050
+Epoch 1/1
+ - 1s - loss: 0.5764 - accuracy: 0.6833
+Loss =  0.5764190542697907
+
+####-------- EMPLOYED BEE PHASE ENDS -------#########
+
+Probabilities = 
+ [0.9384328530410538, 0.1825064507036281, 0.14388107678812095, 0.19840391309855201, 0.21291741618298468, 0.93675913076089, 0.9309869782517458, 0.9756344367458505, 1.0, 0.9488655616162113]
+
+####-------- ONLOOKER BEE PHASE -------#########
+
+bee =  0
+foodSource =  0
+Epoch 1/1
+ - 1s - loss: 0.6825 - accuracy: 0.6400
+bee =  1
+foodSource =  1
+bee =  1
+foodSource =  2
+bee =  1
+foodSource =  3
+bee =  1
+foodSource =  4
+bee =  1
+foodSource =  5
+Epoch 1/1
+ - 3s - loss: 0.6795 - accuracy: 0.6617
+bee =  2
+foodSource =  6
+Epoch 1/1
+ - 2s - loss: 0.7537 - accuracy: 0.5800
+bee =  3
+foodSource =  7
+Epoch 1/1
+ - 6s - loss: 0.5755 - accuracy: 0.7100
+bee =  4
+foodSource =  8
+Epoch 1/1
+ - 2s - loss: 0.6743 - accuracy: 0.6650
+bee =  5
+foodSource =  9
+Epoch 1/1
+ - 1s - loss: 0.6252 - accuracy: 0.6917
+bee =  6
+foodSource =  0
+Epoch 1/1
+ - 1s - loss: 0.6025 - accuracy: 0.7000
+bee =  7
+foodSource =  1
+bee =  7
+foodSource =  2
+bee =  7
+foodSource =  3
+bee =  7
+foodSource =  4
+bee =  7
+foodSource =  5
+Epoch 1/1
+ - 3s - loss: 0.7617 - accuracy: 0.5917
+bee =  8
+foodSource =  6
+Epoch 1/1
+ - 2s - loss: 0.6785 - accuracy: 0.6250
+bee =  9
+foodSource =  7
+Epoch 1/1
+ - 6s - loss: 0.5366 - accuracy: 0.7367
+
+####-------- ONLOOKER BEE PHASE ENDS -------#########
+
+Trial =  [2, 6, 2, 2, 2, 8, 2, 6, 1, 2]
+
+####-------- SCOUT BEE PHASE -------#########
+
+5 th particle was Discarded from the population
+
+####-------- SCOUT BEE PHASE ENDS -------#########
+
+LOSS =  [0.5960346031188964, 15.218948148091634, 29.495328369140626, 12.598725941975912, 10.85085428873698, 0.5992270614703497, 0.610335517724355, 0.5282266088326772, 0.4868531620502472, 0.5764190542697907]
+TRIAL =  [2, 6, 2, 2, 2, 0, 2, 6, 1, 2]
+
+------------ITERATION =  7 ---------------------
+
+
+####-------- EMPLOYED BEE PHASE -------#########
+
+Food Source =  0
+Epoch 1/1
+ - 1s - loss: 0.6257 - accuracy: 0.6733
+Loss =  0.5960346031188964
+Food Source =  1
+Epoch 1/1
+ - 3s - loss: 15.4174 - accuracy: 0.4767
+Loss =  15.218948148091634
+Food Source =  2
+Epoch 1/1
+ - 3s - loss: 29.6846 - accuracy: 0.5117
+Loss =  29.495328369140626
+Food Source =  3
+Epoch 1/1
+ - 2s - loss: 12.5999 - accuracy: 0.5400
+Loss =  12.598725941975912
+Food Source =  4
+Epoch 1/1
+ - 7s - loss: 10.9676 - accuracy: 0.5000
+Loss =  10.85085428873698
+Food Source =  5
+Epoch 1/1
+ - 6s - loss: 0.7715 - accuracy: 0.5933
+Epoch 1/1
+ - 6s - loss: 0.7683 - accuracy: 0.5900
+Loss =  0.768321578502655
+Food Source =  6
+Epoch 1/1
+ - 3s - loss: 0.5873 - accuracy: 0.7000
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+Loss =  0.5872961763540904
+Food Source =  7
+Epoch 1/1
+ - 3s - loss: 0.6218 - accuracy: 0.6950
+Loss =  0.5282266088326772
+Food Source =  8
+Epoch 1/1
+ - 3s - loss: 0.6078 - accuracy: 0.6883
+Loss =  0.4868531620502472
+Food Source =  9
+Epoch 1/1
+ - 2s - loss: 0.6064 - accuracy: 0.7000
+Loss =  0.5764190542697907
+
+####-------- EMPLOYED BEE PHASE ENDS -------#########
+
+Probabilities = 
+ [0.9384328530410538, 0.1825064507036281, 0.14388107678812095, 0.19840391309855201, 0.21291741618298468, 0.8567446227616191, 0.9430486167483257, 0.9756344367458505, 1.0, 0.9488655616162113]
+
+####-------- ONLOOKER BEE PHASE -------#########
+
+bee =  0
+foodSource =  0
+bee =  0
+foodSource =  1
+bee =  0
+foodSource =  2
+bee =  0
+foodSource =  3
+bee =  0
+foodSource =  4
+bee =  0
+foodSource =  5
+Epoch 1/1
+ - 5s - loss: 0.7447 - accuracy: 0.6050
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+bee =  1
+foodSource =  6
+Epoch 1/1
+ - 2s - loss: 0.6407 - accuracy: 0.6833
+bee =  2
+foodSource =  7
+Epoch 1/1
+ - 5s - loss: 0.5584 - accuracy: 0.7133
+bee =  3
+foodSource =  8
+Epoch 1/1
+ - 3s - loss: 0.6980 - accuracy: 0.6367
+bee =  4
+foodSource =  9
+Epoch 1/1
+ - 1s - loss: 0.6251 - accuracy: 0.6850
+bee =  5
+foodSource =  0
+Epoch 1/1
+ - 1s - loss: 0.5795 - accuracy: 0.7017
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+bee =  6
+foodSource =  1
+bee =  6
+foodSource =  2
+bee =  6
+foodSource =  3
+Epoch 1/1
+ - 2s - loss: 12.6268 - accuracy: 0.5033
+bee =  7
+foodSource =  4
+bee =  7
+foodSource =  5
+bee =  7
+foodSource =  6
+Epoch 1/1
+ - 2s - loss: 0.6285 - accuracy: 0.6700
+bee =  8
+foodSource =  7
+Epoch 1/1
+ - 4s - loss: 0.5822 - accuracy: 0.7167
+bee =  9
+foodSource =  8
+Epoch 1/1
+ - 2s - loss: 0.7067 - accuracy: 0.6100
+
+####-------- ONLOOKER BEE PHASE ENDS -------#########
+
+Trial =  [0, 7, 3, 4, 3, 0, 2, 9, 4, 4]
+
+####-------- SCOUT BEE PHASE -------#########
+
+7 th particle was Discarded from the population
+
+####-------- SCOUT BEE PHASE ENDS -------#########
+
+LOSS =  [0.5794716481367747, 15.218948148091634, 29.495328369140626, 12.598725941975912, 10.85085428873698, 0.7447306521733602, 0.5872961763540904, 0.5282266088326772, 0.4868531620502472, 0.5764190542697907]
+TRIAL =  [0, 7, 3, 4, 3, 0, 2, 0, 4, 4]
+
+------------ITERATION =  8 ---------------------
+
+
+####-------- EMPLOYED BEE PHASE -------#########
+
+Food Source =  0
+Epoch 1/1
+ - 1s - loss: 0.6635 - accuracy: 0.6900
+Loss =  0.5794716481367747
+Food Source =  1
+Epoch 1/1
+ - 3s - loss: 15.3931 - accuracy: 0.5033
+Loss =  15.218948148091634
+Food Source =  2
+Epoch 1/1
+ - 3s - loss: 29.7779 - accuracy: 0.4750
+Loss =  29.495328369140626
+Food Source =  3
+Epoch 1/1
+ - 2s - loss: 12.6310 - accuracy: 0.5150
+Loss =  12.598725941975912
+Food Source =  4
+Epoch 1/1
+ - 4s - loss: 11.0555 - accuracy: 0.4917
+Loss =  10.85085428873698
+Food Source =  5
+Epoch 1/1
+ - 5s - loss: 0.8323 - accuracy: 0.5600
+Loss =  0.7447306521733602
+Food Source =  6
+Epoch 1/1
+ - 3s - loss: 0.5852 - accuracy: 0.7167
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+Loss =  0.5851641881465912
+Food Source =  7
+Epoch 1/1
+ - 8s - loss: 2.8097 - accuracy: 0.7883
+Epoch 1/1
+ - 8s - loss: 3.0580 - accuracy: 0.7583
+Loss =  2.8097228240966796
+Food Source =  8
+Epoch 1/1
+ - 3s - loss: 0.6944 - accuracy: 0.6133
+Loss =  0.4868531620502472
+Food Source =  9
+Epoch 1/1
+ - 1s - loss: 0.5994 - accuracy: 0.6917
+Loss =  0.5764190542697907
+
+####-------- EMPLOYED BEE PHASE ENDS -------#########
+
+Probabilities = 
+ [0.9472249865477442, 0.1825064507036281, 0.14388107678812095, 0.19840391309855201, 0.21291741618298468, 0.866976750353016, 0.944182486490461, 0.4512507097317544, 1.0, 0.9488655616162113]
+
+####-------- ONLOOKER BEE PHASE -------#########
+
+bee =  0
+foodSource =  0
+Epoch 1/1
+ - 1s - loss: 0.6464 - accuracy: 0.6483
+bee =  1
+foodSource =  1
+bee =  1
+foodSource =  2
+bee =  1
+foodSource =  3
+bee =  1
+foodSource =  4
+bee =  1
+foodSource =  5
+Epoch 1/1
+ - 6s - loss: 0.7307 - accuracy: 0.6233
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+bee =  2
+foodSource =  6
+Epoch 1/1
+ - 2s - loss: 0.6382 - accuracy: 0.6817
+bee =  3
+foodSource =  7
+bee =  3
+foodSource =  8
+Epoch 1/1
+ - 2s - loss: 0.7327 - accuracy: 0.6133
+bee =  4
+foodSource =  9
+Epoch 1/1
+ - 1s - loss: 0.6178 - accuracy: 0.7150
+bee =  5
+foodSource =  0
+Epoch 1/1
+ - 1s - loss: 0.6328 - accuracy: 0.6600
+bee =  6
+foodSource =  1
+bee =  6
+foodSource =  2
+bee =  6
+foodSource =  3
+bee =  6
+foodSource =  4
+bee =  6
+foodSource =  5
+Epoch 1/1
+ - 5s - loss: 0.8550 - accuracy: 0.5317
+bee =  7
+foodSource =  6
+Epoch 1/1
+ - 2s - loss: 0.6429 - accuracy: 0.6667
+bee =  8
+foodSource =  7
+Epoch 1/1
+ - 5s - loss: 2.8694 - accuracy: 0.7450
+bee =  9
+foodSource =  8
+Epoch 1/1
+ - 2s - loss: 0.7144 - accuracy: 0.6183
+
+####-------- ONLOOKER BEE PHASE ENDS -------#########
+
+Trial =  [3, 8, 4, 5, 4, 1, 2, 1, 7, 6]
+
+####-------- SCOUT BEE PHASE -------#########
+
+1 th particle was Discarded from the population
+
+####-------- SCOUT BEE PHASE ENDS -------#########
+
+LOSS =  [0.5794716481367747, 15.218948148091634, 29.495328369140626, 12.598725941975912, 10.85085428873698, 0.7306772788365682, 0.5851641881465912, 2.8097228240966796, 0.4868531620502472, 0.5764190542697907]
+TRIAL =  [3, 0, 4, 5, 4, 1, 2, 1, 7, 6]
+
+------------ITERATION =  9 ---------------------
+
+
+####-------- EMPLOYED BEE PHASE -------#########
+
+Food Source =  0
+Epoch 1/1
+ - 1s - loss: 0.6001 - accuracy: 0.6767
+Loss =  0.5794716481367747
+Food Source =  1
+Epoch 1/1
+ - 12s - loss: 0.7016 - accuracy: 0.6650
+Epoch 1/1
+ - 7s - loss: 0.6943 - accuracy: 0.6317
+Loss =  0.6942899282773336
+Food Source =  2
+Epoch 1/1
+ - 3s - loss: 29.5283 - accuracy: 0.4983
+Loss =  29.495328369140626
+Food Source =  3
+Epoch 1/1
+ - 2s - loss: 12.6811 - accuracy: 0.4700
+Loss =  12.598725941975912
+Food Source =  4
+Epoch 1/1
+ - 6s - loss: 10.9759 - accuracy: 0.5200
+Loss =  10.85085428873698
+Food Source =  5
+Epoch 1/1
+ - 6s - loss: 0.8272 - accuracy: 0.5400
+Loss =  0.7306772788365682
+Food Source =  6
+Epoch 1/1
+ - 2s - loss: 0.6998 - accuracy: 0.6317
+Loss =  0.5851641881465912
+Food Source =  7
+Epoch 1/1
+ - 6s - loss: 2.7677 - accuracy: 0.7950
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+Loss =  2.7677370484670005
+Food Source =  8
+Epoch 1/1
+ - 2s - loss: 0.7791 - accuracy: 0.5950
+Loss =  0.4868531620502472
+Food Source =  9
+Epoch 1/1
+ - 1s - loss: 0.6104 - accuracy: 0.7033
+Loss =  0.5764190542697907
+
+####-------- EMPLOYED BEE PHASE ENDS -------#########
+
+Probabilities = 
+ [0.9472249865477442, 0.8898104235358363, 0.14388107678812095, 0.19840391309855201, 0.21291741618298468, 0.8732047229191069, 0.944182486490461, 0.4551648718133581, 1.0, 0.9488655616162113]
+
+####-------- ONLOOKER BEE PHASE -------#########
+
+bee =  0
+foodSource =  0
+Epoch 1/1
+ - 1s - loss: 0.7027 - accuracy: 0.6550
+bee =  1
+foodSource =  1
+Epoch 1/1
+ - 8s - loss: 0.6951 - accuracy: 0.6417
+bee =  2
+foodSource =  2
+bee =  2
+foodSource =  3
+bee =  2
+foodSource =  4
+Epoch 1/1
+ - 7s - loss: 11.0082 - accuracy: 0.4900
+bee =  3
+foodSource =  5
+Epoch 1/1
+ - 4s - loss: 0.6561 - accuracy: 0.6583
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+bee =  4
+foodSource =  6
+Epoch 1/1
+ - 3s - loss: 0.6178 - accuracy: 0.6517
+bee =  5
+foodSource =  7
+Epoch 1/1
+ - 8s - loss: 2.8113 - accuracy: 0.7667
+bee =  6
+foodSource =  8
+Epoch 1/1
+ - 2s - loss: 0.7131 - accuracy: 0.6267
+bee =  7
+foodSource =  9
+Epoch 1/1
+ - 1s - loss: 0.7216 - accuracy: 0.6167
+bee =  8
+foodSource =  0
+Epoch 1/1
+ - 1s - loss: 0.6378 - accuracy: 0.6733
+bee =  9
+foodSource =  1
+Epoch 1/1
+ - 8s - loss: 0.7012 - accuracy: 0.6633
+
+####-------- ONLOOKER BEE PHASE ENDS -------#########
+
+Trial =  [6, 3, 5, 6, 6, 0, 4, 1, 9, 8]
+
+####-------- SCOUT BEE PHASE -------#########
+
+8 th particle was Discarded from the population
+
+####-------- SCOUT BEE PHASE ENDS -------#########
+
+LOSS =  [0.5794716481367747, 0.6942899282773336, 29.495328369140626, 12.598725941975912, 10.85085428873698, 0.6560501253604889, 0.5851641881465912, 2.7677370484670005, 0.4868531620502472, 0.5764190542697907]
+TRIAL =  [6, 3, 5, 6, 6, 0, 4, 1, 0, 8]
+
+------------ITERATION =  10 ---------------------
+
+
+####-------- EMPLOYED BEE PHASE -------#########
+
+Food Source =  0
+Epoch 1/1
+ - 1s - loss: 0.6542 - accuracy: 0.6750
+Loss =  0.5794716481367747
+Food Source =  1
+Epoch 1/1
+ - 8s - loss: 0.7047 - accuracy: 0.6583
+Loss =  0.6942899282773336
+Food Source =  2
+Epoch 1/1
+ - 3s - loss: 29.5745 - accuracy: 0.5383
+Loss =  29.495328369140626
+Food Source =  3
+Epoch 1/1
+ - 2s - loss: 12.7103 - accuracy: 0.5000
+Loss =  12.598725941975912
+Food Source =  4
+Epoch 1/1
+ - 5s - loss: 10.9355 - accuracy: 0.5217
+Loss =  10.85085428873698
+Food Source =  5
+Epoch 1/1
+ - 6s - loss: 0.6984 - accuracy: 0.6633
+Loss =  0.6560501253604889
+Food Source =  6
+Epoch 1/1
+ - 3s - loss: 0.6869 - accuracy: 0.6383
+Loss =  0.5851641881465912
+Food Source =  7
+Epoch 1/1
+ - 5s - loss: 3.1358 - accuracy: 0.7283
+Loss =  2.7677370484670005
+Food Source =  8
+Epoch 1/1
+ - 10s - loss: 8.5284 - accuracy: 0.7383
+Epoch 1/1
+ - 8s - loss: 9.0202 - accuracy: 0.7017
+Loss =  8.528372840881348
+Food Source =  9
+Epoch 1/1
+ - 1s - loss: 0.5999 - accuracy: 0.7067
+Loss =  0.5764190542697907
+
+####-------- EMPLOYED BEE PHASE ENDS -------#########
+
+Probabilities = 
+ [0.9982605990531539, 0.9373874654884781, 0.1465244096298542, 0.20433162304296437, 0.2197193986421058, 0.9567235539044884, 0.9950348231760628, 0.47655949196881375, 0.24890025532539706, 1.0]
+
+####-------- ONLOOKER BEE PHASE -------#########
+
+bee =  0
+foodSource =  0
+Epoch 1/1
+ - 1s - loss: 0.6625 - accuracy: 0.6667
+bee =  1
+foodSource =  1
+Epoch 1/1
+ - 8s - loss: 0.6226 - accuracy: 0.6900
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+bee =  2
+foodSource =  2
+bee =  2
+foodSource =  3
+bee =  2
+foodSource =  4
+bee =  2
+foodSource =  5
+Epoch 1/1
+ - 4s - loss: 0.8335 - accuracy: 0.5883
+bee =  3
+foodSource =  6
+Epoch 1/1
+ - 3s - loss: 0.5693 - accuracy: 0.7083
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+bee =  4
+foodSource =  7
+bee =  4
+foodSource =  8
+bee =  4
+foodSource =  9
+Epoch 1/1
+ - 1s - loss: 0.5774 - accuracy: 0.6917
+bee =  5
+foodSource =  0
+Epoch 1/1
+ - 1s - loss: 0.6152 - accuracy: 0.6917
+bee =  6
+foodSource =  1
+Epoch 1/1
+ - 8s - loss: 0.5733 - accuracy: 0.7250
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+bee =  7
+foodSource =  2
+bee =  7
+foodSource =  3
+bee =  7
+foodSource =  4
+bee =  7
+foodSource =  5
+Epoch 1/1
+ - 4s - loss: 0.8098 - accuracy: 0.5733
+bee =  8
+foodSource =  6
+Epoch 1/1
+ - 2s - loss: 0.6551 - accuracy: 0.6617
+bee =  9
+foodSource =  7
+bee =  9
+foodSource =  8
+bee =  9
+foodSource =  9
+Epoch 1/1
+ - 1s - loss: 0.6061 - accuracy: 0.6900
+
+####-------- ONLOOKER BEE PHASE ENDS -------#########
+
+Trial =  [9, 0, 6, 7, 7, 3, 1, 2, 0, 11]
+
+####-------- SCOUT BEE PHASE -------#########
+
+No trial is greater than the limit 
+LOSS =  [0.5794716481367747, 0.5732533009847005, 29.495328369140626, 12.598725941975912, 10.85085428873698, 0.6560501253604889, 0.5693058753013611, 2.7677370484670005, 8.528372840881348, 0.5764190542697907]
+TRIAL =  [9, 0, 6, 7, 7, 3, 1, 2, 0, 11]
+Final losses =  [0.5794716481367747, 0.5732533009847005, 29.495328369140626, 12.598725941975912, 10.85085428873698, 0.6560501253604889, 0.5693058753013611, 2.7677370484670005, 8.528372840881348, 0.5764190542697907]
+Final Accuracies =  [0.70166665, 0.725, 0.5183333, 0.53, 0.47833332, 0.65833336, 0.7083333, 0.795, 0.73833334, 0.68333334]
+Final Trial =  [9, 0, 6, 7, 7, 3, 1, 2, 0, 11]
+
+
+
+The best model produced is as follows
+the model =  6_conv_204 | 3_conv_151 | 5_conv_44 | -1_fc_2 | 
+Accuracy =  0.7083333
+Loss =  0.5693058753013611
+Epoch 1/50
+ - 2s - loss: 0.2369 - accuracy: 0.9608
+Epoch 2/50
+ - 2s - loss: 0.1981 - accuracy: 0.9900
+Epoch 3/50
+ - 2s - loss: 0.1841 - accuracy: 0.9925
+Epoch 4/50
+ - 2s - loss: 0.1740 - accuracy: 0.9958
+Epoch 5/50
+ - 2s - loss: 0.1688 - accuracy: 0.9942
+Epoch 6/50
+ - 2s - loss: 0.1671 - accuracy: 0.9908
+Epoch 7/50
+ - 2s - loss: 0.1606 - accuracy: 0.9908
+Epoch 8/50
+ - 2s - loss: 0.1554 - accuracy: 0.9883
+Epoch 9/50
+ - 2s - loss: 0.1476 - accuracy: 0.9933
+Epoch 10/50
+ - 2s - loss: 0.1434 - accuracy: 0.9942
+Epoch 11/50
+ - 2s - loss: 0.1395 - accuracy: 0.9942
+Epoch 12/50
+ - 2s - loss: 0.1407 - accuracy: 0.9900
+Epoch 13/50
+ - 2s - loss: 0.1411 - accuracy: 0.9900
+Epoch 14/50
+ - 2s - loss: 0.1354 - accuracy: 0.9917
+Epoch 15/50
+ - 2s - loss: 0.1289 - accuracy: 0.9958
+Epoch 16/50
+ - 2s - loss: 0.1252 - accuracy: 0.9942
+Epoch 17/50
+ - 2s - loss: 0.1216 - accuracy: 0.9925
+Epoch 18/50
+ - 2s - loss: 0.1250 - accuracy: 0.9917
+Epoch 19/50
+ - 2s - loss: 0.1164 - accuracy: 0.9967
+Epoch 20/50
+ - 2s - loss: 0.1158 - accuracy: 0.9942
+Epoch 21/50
+ - 2s - loss: 0.1097 - accuracy: 0.9967
+Epoch 22/50
+ - 2s - loss: 0.1070 - accuracy: 0.9967
+Epoch 23/50
+ - 2s - loss: 0.1052 - accuracy: 1.0000
+Epoch 24/50
+ - 2s - loss: 0.1051 - accuracy: 0.9958
+Epoch 25/50
+ - 2s - loss: 0.1023 - accuracy: 0.9967
+Epoch 26/50
+ - 2s - loss: 0.1020 - accuracy: 0.9967
+Epoch 27/50
+ - 2s - loss: 0.0992 - accuracy: 0.9958
+Epoch 28/50
+ - 2s - loss: 0.0991 - accuracy: 0.9975
+Epoch 29/50
+ - 2s - loss: 0.0951 - accuracy: 0.9967
+Epoch 30/50
+ - 2s - loss: 0.0929 - accuracy: 0.9975
+Epoch 31/50
+ - 2s - loss: 0.0897 - accuracy: 0.9983
+Epoch 32/50
+ - 2s - loss: 0.0887 - accuracy: 0.9975
+Epoch 33/50
+ - 2s - loss: 0.0911 - accuracy: 0.9967
+Epoch 34/50
+ - 2s - loss: 0.0848 - accuracy: 0.9983
+Epoch 35/50
+ - 2s - loss: 0.0809 - accuracy: 0.9975
+Epoch 36/50
+ - 2s - loss: 0.0836 - accuracy: 0.9967
+Epoch 37/50
+ - 2s - loss: 0.0816 - accuracy: 0.9975
+Epoch 38/50
+ - 2s - loss: 0.0809 - accuracy: 0.9967
+Epoch 39/50
+ - 2s - loss: 0.0781 - accuracy: 0.9983
+Epoch 40/50
+ - 2s - loss: 0.0742 - accuracy: 0.9975
+Epoch 41/50
+ - 2s - loss: 0.0737 - accuracy: 0.9992
+Epoch 42/50
+ - 2s - loss: 0.0715 - accuracy: 1.0000
+Epoch 43/50
+ - 2s - loss: 0.0710 - accuracy: 1.0000
+Epoch 44/50
+ - 2s - loss: 0.0659 - accuracy: 0.9983
+Epoch 45/50
+ - 2s - loss: 0.0655 - accuracy: 1.0000
+Epoch 46/50
+ - 2s - loss: 0.0661 - accuracy: 1.0000
+Epoch 47/50
+ - 2s - loss: 0.0663 - accuracy: 0.9967
+Epoch 48/50
+ - 2s - loss: 0.0644 - accuracy: 0.9983
+Epoch 49/50
+ - 2s - loss: 0.0662 - accuracy: 0.9992
+Epoch 50/50
+ - 2s - loss: 0.0618 - accuracy: 0.9983
+Model metrics names are =  ['loss', 'accuracy']
+
+
+
+Complete training accuracy =  0.99833333
+Complete training loss =  0.06184719860553742
+Complete training eval_loss =  0.09596760450363159
+Complete training eval_accuracy =  0.9828000068664551
+ALL LOSSES and all ACCURACIES
+[[ 0.51559684  0.53896453  0.53896453  0.53896453  0.60254216  0.5960346
+   0.57947165  0.57947165  0.57947165  0.57947165]
+ [15.23061286 15.21894815 15.21894815 15.21894815 15.21894815 15.21894815
+  15.21894815 15.21894815  0.69428993  0.5732533 ]
+ [29.6728715  29.53727519 29.53727519 29.49532837 29.49532837 29.49532837
+  29.49532837 29.49532837 29.49532837 29.49532837]
+ [12.60689781 12.60634886 12.60634886 12.60634886 12.59872594 12.59872594
+  12.59872594 12.59872594 12.59872594 12.59872594]
+ [10.89893    10.89893    10.89893    10.87712917 10.85085429 10.85085429
+  10.85085429 10.85085429 10.85085429 10.85085429]
+ [ 0.68867432  0.63050377  0.59922706  0.59922706  0.59922706  0.59922706
+   0.74473065  0.73067728  0.65605013  0.65605013]
+ [ 0.63798161  0.63798161  0.63798161  0.61494533  0.61494533  0.61033552
+   0.58729618  0.58516419  0.58516419  0.56930588]
+ [ 0.5045889   0.5045889   0.5784124   0.52822661  0.52822661  0.52822661
+   0.52822661  2.80972282  2.76773705  2.76773705]
+ [ 0.64062362  0.55919774  0.55919774  0.50828972  0.50828972  0.48685316
+   0.48685316  0.48685316  0.48685316  8.52837284]
+ [ 0.47018459  0.47018459  0.47018459  0.47018459  0.47018459  0.57641905
+   0.57641905  0.57641905  0.57641905  0.57641905]]
+
+
+[[0.77       0.73       0.73       0.73       0.695      0.695
+  0.70166665 0.70166665 0.70166665 0.70166665]
+ [0.5466667  0.535      0.535      0.535      0.535      0.535
+  0.535      0.535      0.63166666 0.725     ]
+ [0.47166666 0.53333336 0.53333336 0.5183333  0.5183333  0.5183333
+  0.5183333  0.5183333  0.5183333  0.5183333 ]
+ [0.55       0.5283333  0.5283333  0.5283333  0.53       0.53
+  0.53       0.53       0.53       0.53      ]
+ [0.515      0.515      0.515      0.5416667  0.47833332 0.47833332
+  0.47833332 0.47833332 0.47833332 0.47833332]
+ [0.6383333  0.6666667  0.69166666 0.69166666 0.69166666 0.69166666
+  0.605      0.62333333 0.65833336 0.65833336]
+ [0.68666667 0.68666667 0.68666667 0.69166666 0.69166666 0.68
+  0.7        0.71666664 0.71666664 0.7083333 ]
+ [0.7583333  0.7583333  0.69166666 0.72833335 0.72833335 0.72833335
+  0.72833335 0.78833336 0.795      0.795     ]
+ [0.67833334 0.735      0.735      0.75166667 0.75166667 0.775
+  0.775      0.775      0.775      0.73833334]
+ [0.7816667  0.7816667  0.7816667  0.7816667  0.7816667  0.68333334
+  0.68333334 0.68333334 0.68333334 0.68333334]]
+
+
+BEST DISACRDED SOLUTION =  5_conv_40 | 3_conv_73 | -1_fc_2 | 
+Best Discarded soln accuracy =  0.7816667
+Epoch 1/50
+ - 0s - loss: 0.2871 - accuracy: 0.9083
+Epoch 2/50
+ - 0s - loss: 0.2343 - accuracy: 0.9633
+Epoch 3/50
+ - 0s - loss: 0.2088 - accuracy: 0.9767
+Epoch 4/50
+ - 0s - loss: 0.1991 - accuracy: 0.9800
+Epoch 5/50
+ - 0s - loss: 0.1883 - accuracy: 0.9842
+Epoch 6/50
+ - 0s - loss: 0.1792 - accuracy: 0.9908
+Epoch 7/50
+ - 0s - loss: 0.1788 - accuracy: 0.9867
+Epoch 8/50
+ - 0s - loss: 0.1775 - accuracy: 0.9858
+Epoch 9/50
+ - 0s - loss: 0.1670 - accuracy: 0.9892
+Epoch 10/50
+ - 0s - loss: 0.1612 - accuracy: 0.9917
+Epoch 11/50
+ - 0s - loss: 0.1590 - accuracy: 0.9942
+Epoch 12/50
+ - 0s - loss: 0.1535 - accuracy: 0.9933
+Epoch 13/50
+ - 0s - loss: 0.1559 - accuracy: 0.9883
+Epoch 14/50
+ - 0s - loss: 0.1445 - accuracy: 0.9908
+Epoch 15/50
+ - 0s - loss: 0.1443 - accuracy: 0.9925
+Epoch 16/50
+ - 0s - loss: 0.1413 - accuracy: 0.9950
+Epoch 17/50
+ - 0s - loss: 0.1393 - accuracy: 0.9950
+Epoch 18/50
+ - 0s - loss: 0.1393 - accuracy: 0.9850
+Epoch 19/50
+ - 0s - loss: 0.1332 - accuracy: 0.9942
+Epoch 20/50
+ - 0s - loss: 0.1317 - accuracy: 0.9950
+Epoch 21/50
+ - 0s - loss: 0.1267 - accuracy: 0.9892
+Epoch 22/50
+ - 0s - loss: 0.1225 - accuracy: 0.9975
+Epoch 23/50
+ - 0s - loss: 0.1218 - accuracy: 0.9967
+Epoch 24/50
+ - 0s - loss: 0.1202 - accuracy: 0.9908
+Epoch 25/50
+ - 0s - loss: 0.1203 - accuracy: 0.9942
+Epoch 26/50
+ - 0s - loss: 0.1160 - accuracy: 0.9942
+Epoch 27/50
+ - 0s - loss: 0.1158 - accuracy: 0.9975
+Epoch 28/50
+ - 0s - loss: 0.1117 - accuracy: 0.9958
+Epoch 29/50
+ - 0s - loss: 0.1074 - accuracy: 0.9933
+Epoch 30/50
+ - 0s - loss: 0.1115 - accuracy: 0.9950
+Epoch 31/50
+ - 0s - loss: 0.1012 - accuracy: 0.9975
+Epoch 32/50
+ - 0s - loss: 0.1017 - accuracy: 0.9933
+Epoch 33/50
+ - 0s - loss: 0.1047 - accuracy: 0.9942
+Epoch 34/50
+ - 0s - loss: 0.0992 - accuracy: 0.9975
+Epoch 35/50
+ - 0s - loss: 0.0998 - accuracy: 0.9950
+Epoch 36/50
+ - 0s - loss: 0.1069 - accuracy: 0.9933
+Epoch 37/50
+ - 0s - loss: 0.0966 - accuracy: 0.9967
+Epoch 38/50
+ - 0s - loss: 0.0993 - accuracy: 0.9933
+Epoch 39/50
+ - 0s - loss: 0.0941 - accuracy: 0.9958
+Epoch 40/50
+ - 0s - loss: 0.0924 - accuracy: 0.9933
+Epoch 41/50
+ - 0s - loss: 0.0925 - accuracy: 0.9958
+Epoch 42/50
+ - 0s - loss: 0.0942 - accuracy: 0.9958
+Epoch 43/50
+ - 0s - loss: 0.0917 - accuracy: 0.9950
+Epoch 44/50
+ - 0s - loss: 0.0907 - accuracy: 0.9958
+Epoch 45/50
+ - 0s - loss: 0.0819 - accuracy: 0.9967
+Epoch 46/50
+ - 0s - loss: 0.0850 - accuracy: 0.9958
+Epoch 47/50
+ - 0s - loss: 0.0824 - accuracy: 0.9942
+Epoch 48/50
+ - 0s - loss: 0.0939 - accuracy: 0.9933
+Epoch 49/50
+ - 0s - loss: 0.0803 - accuracy: 0.9958
+Epoch 50/50
+ - 0s - loss: 0.0815 - accuracy: 0.9950
+Model metrics names are =  ['loss', 'accuracy']
+
+
+
+Complete training accuracy =  0.995
+Complete training loss =  0.08154045432806015
+Complete training eval_loss of discarded solution =  0.21958404190063477
+Complete training eval_accuracy of discarded solution =  0.909060001373291
+This run took: 1726.4672937393188 seconds.
+Run number: 1
+Initializing population...
+
+------------ITERATION =  1 ---------------------
+
+
+####-------- EMPLOYED BEE PHASE -------#########
+
+Food Source =  0
+Epoch 1/1
+ - 1s - loss: 3.7577 - accuracy: 0.6283
+Epoch 1/1
+ - 1s - loss: 3.9308 - accuracy: 0.5467
+Loss =  3.7577305380503336
+Food Source =  1
+Epoch 1/1
+ - 2s - loss: 0.7345 - accuracy: 0.5783
+Epoch 1/1
+ - 2s - loss: 0.6806 - accuracy: 0.6433
+Loss =  0.6805997788906097
+Food Source =  2
+Epoch 1/1
+ - 2s - loss: 0.6422 - accuracy: 0.6333
+Epoch 1/1
+ - 2s - loss: 0.6618 - accuracy: 0.6467
+Loss =  0.6421531554063161
+Food Source =  3
+Epoch 1/1
+ - 2s - loss: 4.6321 - accuracy: 0.7250
+Epoch 1/1
+ - 2s - loss: 4.8811 - accuracy: 0.6000
+Loss =  4.632085851033529
+Food Source =  4
+Epoch 1/1
+ - 2s - loss: 0.5608 - accuracy: 0.7117
+Epoch 1/1
+ - 2s - loss: 0.5798 - accuracy: 0.6900
+Loss =  0.5607807254791259
+Food Source =  5
+Epoch 1/1
+ - 3s - loss: 0.7138 - accuracy: 0.6183
+Epoch 1/1
+ - 3s - loss: 0.7142 - accuracy: 0.6033
+Loss =  0.7137566335995992
+Food Source =  6
+Epoch 1/1
+ - 7s - loss: 0.7567 - accuracy: 0.6083
+Epoch 1/1
+ - 5s - loss: 0.7329 - accuracy: 0.6283
+Loss =  0.7329195586840311
+Food Source =  7
+Epoch 1/1
+ - 5s - loss: 15.4118 - accuracy: 0.5383
+Epoch 1/1
+ - 4s - loss: 15.1598 - accuracy: 0.6083
+Loss =  15.159778607686361
+Food Source =  8
+Epoch 1/1
+ - 1s - loss: 0.7339 - accuracy: 0.5983
+Epoch 1/1
+ - 1s - loss: 0.8245 - accuracy: 0.5383
+Loss =  0.7339313729604086
+Food Source =  9
+Epoch 1/1
+ - 2s - loss: 14.7589 - accuracy: 0.4900
+Epoch 1/1
+ - 2s - loss: 14.6479 - accuracy: 0.5517
+Loss =  14.647903060913086
+
+####-------- EMPLOYED BEE PHASE ENDS -------#########
+
+Probabilities = 
+ [0.3952463662447864, 0.9358341293240439, 0.955402949661933, 0.3494107316694116, 0.9999999999999999, 0.9196628537511512, 0.9105988797298452, 0.18692586000299966, 0.9101258647468323, 0.18976938618951583]
+
+####-------- ONLOOKER BEE PHASE -------#########
+
+bee =  0
+foodSource =  0
+bee =  0
+foodSource =  1
+Epoch 1/1
+ - 2s - loss: 0.6982 - accuracy: 0.6200
+bee =  1
+foodSource =  2
+Epoch 1/1
+ - 2s - loss: 0.6696 - accuracy: 0.6533
+bee =  2
+foodSource =  3
+bee =  2
+foodSource =  4
+Epoch 1/1
+ - 1s - loss: 0.5673 - accuracy: 0.7067
+bee =  3
+foodSource =  5
+Epoch 1/1
+ - 3s - loss: 0.7419 - accuracy: 0.5800
+bee =  4
+foodSource =  6
+Epoch 1/1
+ - 5s - loss: 0.8107 - accuracy: 0.5850
+bee =  5
+foodSource =  7
+bee =  5
+foodSource =  8
+Epoch 1/1
+ - 1s - loss: 0.8031 - accuracy: 0.5483
+bee =  6
+foodSource =  9
+bee =  6
+foodSource =  0
+Epoch 1/1
+ - 1s - loss: 3.8205 - accuracy: 0.5683
+bee =  7
+foodSource =  1
+Epoch 1/1
+ - 2s - loss: 0.7049 - accuracy: 0.6350
+bee =  8
+foodSource =  2
+Epoch 1/1
+ - 2s - loss: 0.6677 - accuracy: 0.6450
+bee =  9
+foodSource =  3
+bee =  9
+foodSource =  4
+Epoch 1/1
+ - 2s - loss: 0.4970 - accuracy: 0.7667
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+
+####-------- ONLOOKER BEE PHASE ENDS -------#########
+
+Trial =  [1, 3, 2, 0, 0, 1, 2, 1, 1, 1]
+
+####-------- SCOUT BEE PHASE -------#########
+
+1 th particle was Discarded from the population
+
+####-------- SCOUT BEE PHASE ENDS -------#########
+
+LOSS =  [3.7577305380503336, 0.6805997788906097, 0.6421531554063161, 4.632085851033529, 0.49695691545804344, 0.7137566335995992, 0.7329195586840311, 15.159778607686361, 0.7339313729604086, 14.647903060913086]
+TRIAL =  [1, 0, 2, 0, 0, 1, 2, 1, 1, 1]
+
+------------ITERATION =  2 ---------------------
+
+
+####-------- EMPLOYED BEE PHASE -------#########
+
+Food Source =  0
+Epoch 1/1
+ - 1s - loss: 3.8655 - accuracy: 0.5783
+Loss =  3.7577305380503336
+Food Source =  1
+Epoch 1/1
+ - 1s - loss: 6.0692 - accuracy: 0.5633
+Epoch 1/1
+ - 1s - loss: 6.1938 - accuracy: 0.5333
+Loss =  6.0692443148295085
+Food Source =  2
+Epoch 1/1
+ - 2s - loss: 0.6994 - accuracy: 0.6283
+Loss =  0.6421531554063161
+Food Source =  3
+Epoch 1/1
+ - 2s - loss: 4.9037 - accuracy: 0.5683
+Loss =  4.632085851033529
+Food Source =  4
+Epoch 1/1
+ - 2s - loss: 0.6055 - accuracy: 0.6767
+Loss =  0.49695691545804344
+Food Source =  5
+Epoch 1/1
+ - 3s - loss: 0.7251 - accuracy: 0.6200
+Loss =  0.7137566335995992
+Food Source =  6
+Epoch 1/1
+ - 5s - loss: 0.7207 - accuracy: 0.6433
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+Loss =  0.7206983550389607
+Food Source =  7
+Epoch 1/1
+ - 4s - loss: 15.2444 - accuracy: 0.6017
+Loss =  15.159778607686361
+Food Source =  8
+Epoch 1/1
+ - 1s - loss: 0.7353 - accuracy: 0.6017
+Loss =  0.7339313729604086
+Food Source =  9
+Epoch 1/1
+ - 2s - loss: 14.6485 - accuracy: 0.4967
+Loss =  14.647903060913086
+
+####-------- EMPLOYED BEE PHASE ENDS -------#########
+
+Probabilities = 
+ [0.3831730828674321, 0.29058065670272876, 0.9204236124241943, 0.33921176976821243, 1.0, 0.8861450088642006, 0.8829735060575065, 0.18337126743007592, 0.876998008642065, 0.18609851547953188]
+
+####-------- ONLOOKER BEE PHASE -------#########
+
+bee =  0
+foodSource =  0
+Epoch 1/1
+ - 1s - loss: 3.8899 - accuracy: 0.5850
+bee =  1
+foodSource =  1
+Epoch 1/1
+ - 1s - loss: 5.9413 - accuracy: 0.5267
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+bee =  2
+foodSource =  2
+Epoch 1/1
+ - 2s - loss: 0.6099 - accuracy: 0.6917
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+bee =  3
+foodSource =  3
+Epoch 1/1
+ - 2s - loss: 4.8102 - accuracy: 0.6283
+bee =  4
+foodSource =  4
+Epoch 1/1
+ - 2s - loss: 0.5489 - accuracy: 0.7233
+bee =  5
+foodSource =  5
+Epoch 1/1
+ - 3s - loss: 0.7251 - accuracy: 0.6100
+bee =  6
+foodSource =  6
+Epoch 1/1
+ - 5s - loss: 0.5567 - accuracy: 0.7483
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+bee =  7
+foodSource =  7
+bee =  7
+foodSource =  8
+Epoch 1/1
+ - 1s - loss: 0.6785 - accuracy: 0.6533
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+bee =  8
+foodSource =  9
+bee =  8
+foodSource =  0
+Epoch 1/1
+ - 1s - loss: 4.0067 - accuracy: 0.5100
+bee =  9
+foodSource =  1
+bee =  9
+foodSource =  2
+Epoch 1/1
+ - 2s - loss: 0.6336 - accuracy: 0.6683
+
+####-------- ONLOOKER BEE PHASE ENDS -------#########
+
+Trial =  [4, 0, 1, 2, 2, 3, 0, 2, 0, 2]
+
+####-------- SCOUT BEE PHASE -------#########
+
+0 th particle was Discarded from the population
+
+####-------- SCOUT BEE PHASE ENDS -------#########
+
+LOSS =  [3.7577305380503336, 5.941269760131836, 0.6098808658123016, 4.632085851033529, 0.49695691545804344, 0.7137566335995992, 0.5566920979817709, 15.159778607686361, 0.6784748522440592, 14.647903060913086]
+TRIAL =  [0, 0, 1, 2, 2, 3, 0, 2, 0, 2]
+
+------------ITERATION =  3 ---------------------
+
+
+####-------- EMPLOYED BEE PHASE -------#########
+
+Food Source =  0
+Epoch 1/1
+ - 5s - loss: 0.6741 - accuracy: 0.6733
+Epoch 1/1
+ - 3s - loss: 0.7362 - accuracy: 0.6050
+Loss =  0.6741216154893239
+Food Source =  1
+Epoch 1/1
+ - 1s - loss: 6.1843 - accuracy: 0.4933
+Loss =  5.941269760131836
+Food Source =  2
+Epoch 1/1
+ - 2s - loss: 0.6525 - accuracy: 0.6567
+Loss =  0.6098808658123016
+Food Source =  3
+Epoch 1/1
+ - 2s - loss: 4.7003 - accuracy: 0.6750
+Loss =  4.632085851033529
+Food Source =  4
+Epoch 1/1
+ - 1s - loss: 0.5581 - accuracy: 0.7050
+Loss =  0.49695691545804344
+Food Source =  5
+Epoch 1/1
+ - 3s - loss: 0.7697 - accuracy: 0.5733
+Loss =  0.7137566335995992
+Food Source =  6
+Epoch 1/1
+ - 5s - loss: 0.6706 - accuracy: 0.6683
+Loss =  0.5566920979817709
+Food Source =  7
+Epoch 1/1
+ - 4s - loss: 15.3600 - accuracy: 0.5550
+Loss =  15.159778607686361
+Food Source =  8
+Epoch 1/1
+ - 1s - loss: 0.8462 - accuracy: 0.5467
+Loss =  0.6784748522440592
+Food Source =  9
+Epoch 1/1
+ - 2s - loss: 14.6422 - accuracy: 0.4883
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+Loss =  14.642225863138835
+
+####-------- EMPLOYED BEE PHASE ENDS -------#########
+
+Probabilities = 
+ [0.9047570806368523, 0.29409434735564155, 0.936870138979165, 0.33921176976821243, 1.0, 0.8861450088642006, 0.9654641631822659, 0.18337126743007592, 0.9026698893409099, 0.1861297641205324]
+
+####-------- ONLOOKER BEE PHASE -------#########
+
+bee =  0
+foodSource =  0
+Epoch 1/1
+ - 4s - loss: 0.5888 - accuracy: 0.7267
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+bee =  1
+foodSource =  1
+bee =  1
+foodSource =  2
+Epoch 1/1
+ - 2s - loss: 0.6479 - accuracy: 0.6667
+bee =  2
+foodSource =  3
+Epoch 1/1
+ - 2s - loss: 4.7149 - accuracy: 0.6383
+bee =  3
+foodSource =  4
+Epoch 1/1
+ - 1s - loss: 0.5721 - accuracy: 0.7217
+bee =  4
+foodSource =  5
+Epoch 1/1
+ - 3s - loss: 0.7469 - accuracy: 0.5817
+bee =  5
+foodSource =  6
+Epoch 1/1
+ - 5s - loss: 0.6591 - accuracy: 0.6800
+bee =  6
+foodSource =  7
+bee =  6
+foodSource =  8
+Epoch 1/1
+ - 1s - loss: 0.7481 - accuracy: 0.5833
+bee =  7
+foodSource =  9
+Epoch 1/1
+ - 2s - loss: 14.6394 - accuracy: 0.5050
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+bee =  8
+foodSource =  0
+bee =  8
+foodSource =  1
+Epoch 1/1
+ - 1s - loss: 6.1898 - accuracy: 0.5350
+bee =  9
+foodSource =  2
+Epoch 1/1
+ - 2s - loss: 0.6713 - accuracy: 0.6433
+
+####-------- ONLOOKER BEE PHASE ENDS -------#########
+
+Trial =  [0, 2, 4, 4, 4, 5, 2, 3, 2, 0]
+
+####-------- SCOUT BEE PHASE -------#########
+
+5 th particle was Discarded from the population
+
+####-------- SCOUT BEE PHASE ENDS -------#########
+
+LOSS =  [0.5888129691282908, 5.941269760131836, 0.6098808658123016, 4.632085851033529, 0.49695691545804344, 0.7137566335995992, 0.5566920979817709, 15.159778607686361, 0.6784748522440592, 14.639433059692383]
+TRIAL =  [0, 2, 4, 4, 4, 0, 2, 3, 2, 0]
+
+------------ITERATION =  4 ---------------------
+
+
+####-------- EMPLOYED BEE PHASE -------#########
+
+Food Source =  0
+Epoch 1/1
+ - 4s - loss: 0.7255 - accuracy: 0.6200
+Loss =  0.5888129691282908
+Food Source =  1
+Epoch 1/1
+ - 1s - loss: 6.1547 - accuracy: 0.4900
+Loss =  5.941269760131836
+Food Source =  2
+Epoch 1/1
+ - 2s - loss: 0.6308 - accuracy: 0.6667
+Loss =  0.6098808658123016
+Food Source =  3
+Epoch 1/1
+ - 2s - loss: 4.7303 - accuracy: 0.6400
+Loss =  4.632085851033529
+Food Source =  4
+Epoch 1/1
+ - 2s - loss: 0.6092 - accuracy: 0.6817
+Loss =  0.49695691545804344
+Food Source =  5
+Epoch 1/1
+ - 5s - loss: 0.6474 - accuracy: 0.6667
+Epoch 1/1
+ - 6s - loss: 0.6598 - accuracy: 0.6750
+Loss =  0.6473739043871561
+Food Source =  6
+Epoch 1/1
+ - 5s - loss: 0.7268 - accuracy: 0.6550
+Loss =  0.5566920979817709
+Food Source =  7
+Epoch 1/1
+ - 4s - loss: 15.1434 - accuracy: 0.5717
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+Loss =  15.143438822428385
+Food Source =  8
+Epoch 1/1
+ - 1s - loss: 0.6773 - accuracy: 0.6167
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+Loss =  0.6772588793436686
+Food Source =  9
+Epoch 1/1
+ - 2s - loss: 14.6698 - accuracy: 0.5200
+Loss =  14.639433059692383
+
+####-------- EMPLOYED BEE PHASE ENDS -------#########
+
+Probabilities = 
+ [0.94796716170527, 0.29409434735564155, 0.936870138979165, 0.33921176976821243, 1.0, 0.9178235798954442, 0.9654641631822659, 0.1834556527101564, 0.9032518059701306, 0.18614514469738325]
+
+####-------- ONLOOKER BEE PHASE -------#########
+
+bee =  0
+foodSource =  0
+Epoch 1/1
+ - 4s - loss: 0.7431 - accuracy: 0.5883
+bee =  1
+foodSource =  1
+bee =  1
+foodSource =  2
+bee =  1
+foodSource =  3
+bee =  1
+foodSource =  4
+Epoch 1/1
+ - 2s - loss: 0.5534 - accuracy: 0.7383
+bee =  2
+foodSource =  5
+Epoch 1/1
+ - 3s - loss: 0.5997 - accuracy: 0.7067
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+bee =  3
+foodSource =  6
+Epoch 1/1
+ - 5s - loss: 0.6934 - accuracy: 0.6717
+bee =  4
+foodSource =  7
+bee =  4
+foodSource =  8
+Epoch 1/1
+ - 1s - loss: 0.8695 - accuracy: 0.5217
+bee =  5
+foodSource =  9
+bee =  5
+foodSource =  0
+Epoch 1/1
+ - 3s - loss: 0.6577 - accuracy: 0.6867
+bee =  6
+foodSource =  1
+bee =  6
+foodSource =  2
+Epoch 1/1
+ - 2s - loss: 0.6411 - accuracy: 0.6867
+bee =  7
+foodSource =  3
+Epoch 1/1
+ - 2s - loss: 4.7526 - accuracy: 0.6383
+bee =  8
+foodSource =  4
+Epoch 1/1
+ - 1s - loss: 0.5548 - accuracy: 0.7317
+bee =  9
+foodSource =  5
+Epoch 1/1
+ - 3s - loss: 0.5627 - accuracy: 0.7250
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+
+####-------- ONLOOKER BEE PHASE ENDS -------#########
+
+Trial =  [3, 3, 6, 6, 7, 0, 4, 0, 1, 1]
+
+####-------- SCOUT BEE PHASE -------#########
+
+Best Discarded Particle Updated with loss =  0.49695691545804344
+4 th particle was Discarded from the population
+
+####-------- SCOUT BEE PHASE ENDS -------#########
+
+LOSS =  [0.5888129691282908, 5.941269760131836, 0.6098808658123016, 4.632085851033529, 0.49695691545804344, 0.562701514561971, 0.5566920979817709, 15.143438822428385, 0.6772588793436686, 14.639433059692383]
+TRIAL =  [3, 3, 6, 6, 0, 0, 4, 0, 1, 1]
+
+------------ITERATION =  5 ---------------------
+
+
+####-------- EMPLOYED BEE PHASE -------#########
+
+Food Source =  0
+Epoch 1/1
+ - 4s - loss: 0.7650 - accuracy: 0.6217
+Loss =  0.5888129691282908
+Food Source =  1
+Epoch 1/1
+ - 1s - loss: 6.2024 - accuracy: 0.4550
+Loss =  5.941269760131836
+Food Source =  2
+Epoch 1/1
+ - 2s - loss: 0.6175 - accuracy: 0.6700
+Loss =  0.6098808658123016
+Food Source =  3
+Epoch 1/1
+ - 2s - loss: 4.6672 - accuracy: 0.6650
+Loss =  4.632085851033529
+Food Source =  4
+Epoch 1/1
+ - 3s - loss: 0.6893 - accuracy: 0.6350
+Epoch 1/1
+ - 3s - loss: 0.5998 - accuracy: 0.7000
+Loss =  0.599768522977829
+Food Source =  5
+Epoch 1/1
+ - 4s - loss: 0.5443 - accuracy: 0.7350
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+Loss =  0.5443229750792186
+Food Source =  6
+Epoch 1/1
+ - 6s - loss: 0.6956 - accuracy: 0.6350
+Loss =  0.5566920979817709
+Food Source =  7
+Epoch 1/1
+ - 5s - loss: 15.2681 - accuracy: 0.5417
+Loss =  15.143438822428385
+Food Source =  8
+Epoch 1/1
+ - 1s - loss: 0.7297 - accuracy: 0.6067
+Loss =  0.6772588793436686
+Food Source =  9
+Epoch 1/1
+ - 2s - loss: 14.6076 - accuracy: 0.5283
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+Loss =  14.607645123799642
+
+####-------- EMPLOYED BEE PHASE ENDS -------#########
+
+Probabilities = 
+ [0.9747981698147054, 0.30023579627380714, 0.9633500199221239, 0.3467808045426441, 0.968807366570844, 0.9999999999999999, 0.9928488038021583, 0.18609632017437916, 0.9286679502422293, 0.18905191440135277]
+
+####-------- ONLOOKER BEE PHASE -------#########
+
+bee =  0
+foodSource =  0
+bee =  0
+foodSource =  1
+Epoch 1/1
+ - 1s - loss: 6.1114 - accuracy: 0.4867
+bee =  1
+foodSource =  2
+Epoch 1/1
+ - 3s - loss: 0.6143 - accuracy: 0.7017
+bee =  2
+foodSource =  3
+Epoch 1/1
+ - 2s - loss: 4.7215 - accuracy: 0.6333
+bee =  3
+foodSource =  4
+Epoch 1/1
+ - 3s - loss: 0.6308 - accuracy: 0.6817
+bee =  4
+foodSource =  5
+Epoch 1/1
+ - 3s - loss: 0.5931 - accuracy: 0.6983
+bee =  5
+foodSource =  6
+Epoch 1/1
+ - 6s - loss: 0.7337 - accuracy: 0.6233
+bee =  6
+foodSource =  7
+bee =  6
+foodSource =  8
+Epoch 1/1
+ - 1s - loss: 0.9089 - accuracy: 0.4950
+bee =  7
+foodSource =  9
+bee =  7
+foodSource =  0
+bee =  7
+foodSource =  1
+bee =  7
+foodSource =  2
+Epoch 1/1
+ - 3s - loss: 0.6232 - accuracy: 0.6667
+bee =  8
+foodSource =  3
+Epoch 1/1
+ - 2s - loss: 4.7938 - accuracy: 0.6333
+bee =  9
+foodSource =  4
+Epoch 1/1
+ - 2s - loss: 0.6387 - accuracy: 0.6750
+
+####-------- ONLOOKER BEE PHASE ENDS -------#########
+
+Trial =  [4, 5, 9, 9, 3, 1, 6, 1, 3, 0]
+
+####-------- SCOUT BEE PHASE -------#########
+
+2 th particle was Discarded from the population
+
+####-------- SCOUT BEE PHASE ENDS -------#########
+
+LOSS =  [0.5888129691282908, 5.941269760131836, 0.6098808658123016, 4.632085851033529, 0.599768522977829, 0.5443229750792186, 0.5566920979817709, 15.143438822428385, 0.6772588793436686, 14.607645123799642]
+TRIAL =  [4, 5, 0, 9, 3, 1, 6, 1, 3, 0]
+
+------------ITERATION =  6 ---------------------
+
+
+####-------- EMPLOYED BEE PHASE -------#########
+
+Food Source =  0
+Epoch 1/1
+ - 4s - loss: 0.7208 - accuracy: 0.6283
+Loss =  0.5888129691282908
+Food Source =  1
+Epoch 1/1
+ - 1s - loss: 6.0453 - accuracy: 0.5083
+Loss =  5.941269760131836
+Food Source =  2
+Epoch 1/1
+ - 2s - loss: 0.6413 - accuracy: 0.6350
+Epoch 1/1
+ - 2s - loss: 0.6452 - accuracy: 0.6917
+Loss =  0.641275802453359
+Food Source =  3
+Epoch 1/1
+ - 2s - loss: 4.6969 - accuracy: 0.6567
+Loss =  4.632085851033529
+Food Source =  4
+Epoch 1/1
+ - 2s - loss: 0.5865 - accuracy: 0.6883
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+Loss =  0.5864838755130768
+Food Source =  5
+Epoch 1/1
+ - 3s - loss: 0.6051 - accuracy: 0.7150
+Loss =  0.5443229750792186
+Food Source =  6
+Epoch 1/1
+ - 5s - loss: 0.6499 - accuracy: 0.6833
+Loss =  0.5566920979817709
+Food Source =  7
+Epoch 1/1
+ - 5s - loss: 15.2943 - accuracy: 0.5933
+Loss =  15.143438822428385
+Food Source =  8
+Epoch 1/1
+ - 1s - loss: 0.7050 - accuracy: 0.6383
+Loss =  0.6772588793436686
+Food Source =  9
+Epoch 1/1
+ - 2s - loss: 14.6307 - accuracy: 0.4883
+Loss =  14.607645123799642
+
+####-------- EMPLOYED BEE PHASE ENDS -------#########
+
+Probabilities = 
+ [0.9747981698147054, 0.30023579627380714, 0.9468355382402549, 0.3467808045426441, 0.9760824481256066, 0.9999999999999999, 0.9928488038021583, 0.18609632017437916, 0.9286679502422293, 0.18905191440135277]
+
+####-------- ONLOOKER BEE PHASE -------#########
+
+bee =  0
+foodSource =  0
+Epoch 1/1
+ - 4s - loss: 0.7038 - accuracy: 0.6433
+bee =  1
+foodSource =  1
+bee =  1
+foodSource =  2
+Epoch 1/1
+ - 2s - loss: 0.5786 - accuracy: 0.7083
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+bee =  2
+foodSource =  3
+Epoch 1/1
+ - 2s - loss: 4.6853 - accuracy: 0.6667
+bee =  3
+foodSource =  4
+Epoch 1/1
+ - 3s - loss: 0.5926 - accuracy: 0.7067
+bee =  4
+foodSource =  5
+Epoch 1/1
+ - 4s - loss: 0.5839 - accuracy: 0.6900
+bee =  5
+foodSource =  6
+Epoch 1/1
+ - 5s - loss: 0.5994 - accuracy: 0.6900
+bee =  6
+foodSource =  7
+bee =  6
+foodSource =  8
+Epoch 1/1
+ - 1s - loss: 0.9122 - accuracy: 0.4983
+bee =  7
+foodSource =  9
+bee =  7
+foodSource =  0
+Epoch 1/1
+ - 3s - loss: 0.7500 - accuracy: 0.6067
+bee =  8
+foodSource =  1
+bee =  8
+foodSource =  2
+bee =  8
+foodSource =  3
+Epoch 1/1
+ - 2s - loss: 4.6827 - accuracy: 0.6567
+bee =  9
+foodSource =  4
+Epoch 1/1
+ - 3s - loss: 0.6530 - accuracy: 0.6667
+
+####-------- ONLOOKER BEE PHASE ENDS -------#########
+
+Trial =  [7, 6, 0, 12, 2, 3, 8, 2, 5, 1]
+
+####-------- SCOUT BEE PHASE -------#########
+
+3 th particle was Discarded from the population
+
+####-------- SCOUT BEE PHASE ENDS -------#########
+
+LOSS =  [0.5888129691282908, 5.941269760131836, 0.578600268761317, 4.632085851033529, 0.5864838755130768, 0.5443229750792186, 0.5566920979817709, 15.143438822428385, 0.6772588793436686, 14.607645123799642]
+TRIAL =  [7, 6, 0, 0, 2, 3, 8, 2, 5, 1]
+
+------------ITERATION =  7 ---------------------
+
+
+####-------- EMPLOYED BEE PHASE -------#########
+
+Food Source =  0
+Epoch 1/1
+ - 3s - loss: 0.6253 - accuracy: 0.6817
+Loss =  0.5888129691282908
+Food Source =  1
+Epoch 1/1
+ - 1s - loss: 6.1584 - accuracy: 0.5233
+Loss =  5.941269760131836
+Food Source =  2
+Epoch 1/1
+ - 2s - loss: 0.5505 - accuracy: 0.7100
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+Loss =  0.5504929649829865
+Food Source =  3
+Epoch 1/1
+ - 1s - loss: 0.8191 - accuracy: 0.5233
+Epoch 1/1
+ - 1s - loss: 0.8452 - accuracy: 0.5267
+Loss =  0.8190544891357422
+Food Source =  4
+Epoch 1/1
+ - 2s - loss: 0.5601 - accuracy: 0.7317
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+Loss =  0.5601366420586904
+Food Source =  5
+Epoch 1/1
+ - 4s - loss: 0.6486 - accuracy: 0.6883
+Loss =  0.5443229750792186
+Food Source =  6
+Epoch 1/1
+ - 5s - loss: 0.7339 - accuracy: 0.6500
+Loss =  0.5566920979817709
+Food Source =  7
+Epoch 1/1
+ - 5s - loss: 15.2030 - accuracy: 0.5683
+Loss =  15.143438822428385
+Food Source =  8
+Epoch 1/1
+ - 1s - loss: 0.8487 - accuracy: 0.5067
+Loss =  0.6772588793436686
+Food Source =  9
+Epoch 1/1
+ - 2s - loss: 14.6247 - accuracy: 0.4950
+Loss =  14.607645123799642
+
+####-------- EMPLOYED BEE PHASE ENDS -------#########
+
+Probabilities = 
+ [0.9747981698147054, 0.30023579627380714, 0.9964185642638809, 0.8640731412238524, 0.9908775296356449, 0.9999999999999999, 0.9928488038021583, 0.18609632017437916, 0.9286679502422293, 0.18905191440135277]
+
+####-------- ONLOOKER BEE PHASE -------#########
+
+bee =  0
+foodSource =  0
+Epoch 1/1
+ - 4s - loss: 0.7480 - accuracy: 0.6033
+bee =  1
+foodSource =  1
+bee =  1
+foodSource =  2
+Epoch 1/1
+ - 2s - loss: 0.6615 - accuracy: 0.6333
+bee =  2
+foodSource =  3
+Epoch 1/1
+ - 1s - loss: 0.7924 - accuracy: 0.5550
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+bee =  3
+foodSource =  4
+Epoch 1/1
+ - 2s - loss: 0.5116 - accuracy: 0.7450
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+bee =  4
+foodSource =  5
+Epoch 1/1
+ - 4s - loss: 0.6919 - accuracy: 0.6717
+bee =  5
+foodSource =  6
+Epoch 1/1
+ - 5s - loss: 0.7243 - accuracy: 0.6433
+bee =  6
+foodSource =  7
+bee =  6
+foodSource =  8
+Epoch 1/1
+ - 1s - loss: 0.6915 - accuracy: 0.6117
+bee =  7
+foodSource =  9
+bee =  7
+foodSource =  0
+Epoch 1/1
+ - 4s - loss: 0.6356 - accuracy: 0.6883
+bee =  8
+foodSource =  1
+bee =  8
+foodSource =  2
+Epoch 1/1
+ - 2s - loss: 0.6057 - accuracy: 0.6850
+bee =  9
+foodSource =  3
+Epoch 1/1
+ - 1s - loss: 0.8060 - accuracy: 0.5600
+
+####-------- ONLOOKER BEE PHASE ENDS -------#########
+
+Trial =  [10, 7, 2, 1, 0, 5, 10, 3, 7, 2]
+
+####-------- SCOUT BEE PHASE -------#########
+
+0 th particle was Discarded from the population
+
+####-------- SCOUT BEE PHASE ENDS -------#########
+
+LOSS =  [0.5888129691282908, 5.941269760131836, 0.5504929649829865, 0.7923540051778157, 0.5116257496674855, 0.5443229750792186, 0.5566920979817709, 15.143438822428385, 0.6772588793436686, 14.607645123799642]
+TRIAL =  [0, 7, 2, 1, 0, 5, 10, 3, 7, 2]
+
+------------ITERATION =  8 ---------------------
+
+
+####-------- EMPLOYED BEE PHASE -------#########
+
+Food Source =  0
+Epoch 1/1
+ - 2s - loss: 0.6066 - accuracy: 0.6750
+Epoch 1/1
+ - 2s - loss: 0.6104 - accuracy: 0.6950
+Loss =  0.6065866080919902
+Food Source =  1
+Epoch 1/1
+ - 1s - loss: 6.2190 - accuracy: 0.4650
+Loss =  5.941269760131836
+Food Source =  2
+Epoch 1/1
+ - 1s - loss: 0.5851 - accuracy: 0.6883
+Loss =  0.5504929649829865
+Food Source =  3
+Epoch 1/1
+ - 1s - loss: 0.8381 - accuracy: 0.5267
+Loss =  0.7923540051778157
+Food Source =  4
+Epoch 1/1
+ - 2s - loss: 0.5582 - accuracy: 0.7233
+Loss =  0.5116257496674855
+Food Source =  5
+Epoch 1/1
+ - 4s - loss: 0.5701 - accuracy: 0.7000
+Loss =  0.5443229750792186
+Food Source =  6
+Epoch 1/1
+ - 6s - loss: 0.6994 - accuracy: 0.6467
+Loss =  0.5566920979817709
+Food Source =  7
+Epoch 1/1
+ - 4s - loss: 15.2425 - accuracy: 0.6233
+Loss =  15.143438822428385
+Food Source =  8
+Epoch 1/1
+ - 1s - loss: 0.7108 - accuracy: 0.6267
+Loss =  0.6772588793436686
+Food Source =  9
+Epoch 1/1
+ - 2s - loss: 14.6421 - accuracy: 0.4867
+Loss =  14.607645123799642
+
+####-------- EMPLOYED BEE PHASE ENDS -------#########
+
+Probabilities = 
+ [0.9468035074165383, 0.2959962977544468, 0.9774391148015722, 0.8590370935488093, 1.0000000000000002, 0.9809447224800562, 0.9739449352023807, 0.18427344320285832, 0.9111229527269531, 0.18716646002068604]
+
+####-------- ONLOOKER BEE PHASE -------#########
+
+bee =  0
+foodSource =  0
+Epoch 1/1
+ - 1s - loss: 0.6502 - accuracy: 0.6700
+bee =  1
+foodSource =  1
+bee =  1
+foodSource =  2
+Epoch 1/1
+ - 2s - loss: 0.6027 - accuracy: 0.7133
+bee =  2
+foodSource =  3
+Epoch 1/1
+ - 1s - loss: 0.7829 - accuracy: 0.5567
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+bee =  3
+foodSource =  4
+Epoch 1/1
+ - 2s - loss: 0.6198 - accuracy: 0.6950
+bee =  4
+foodSource =  5
+Epoch 1/1
+ - 3s - loss: 0.6347 - accuracy: 0.6833
+bee =  5
+foodSource =  6
+Epoch 1/1
+ - 5s - loss: 0.6170 - accuracy: 0.6950
+bee =  6
+foodSource =  7
+Epoch 1/1
+ - 4s - loss: 15.1925 - accuracy: 0.6200
+bee =  7
+foodSource =  8
+Epoch 1/1
+ - 1s - loss: 0.7192 - accuracy: 0.5983
+bee =  8
+foodSource =  9
+bee =  8
+foodSource =  0
+Epoch 1/1
+ - 2s - loss: 0.6081 - accuracy: 0.6867
+bee =  9
+foodSource =  1
+Epoch 1/1
+ - 1s - loss: 6.3009 - accuracy: 0.5233
+
+####-------- ONLOOKER BEE PHASE ENDS -------#########
+
+Trial =  [2, 9, 4, 0, 2, 7, 12, 5, 9, 3]
+
+####-------- SCOUT BEE PHASE -------#########
+
+6 th particle was Discarded from the population
+
+####-------- SCOUT BEE PHASE ENDS -------#########
+
+LOSS =  [0.6065866080919902, 5.941269760131836, 0.5504929649829865, 0.7828602019945781, 0.5116257496674855, 0.5443229750792186, 0.5566920979817709, 15.143438822428385, 0.6772588793436686, 14.607645123799642]
+TRIAL =  [2, 9, 4, 0, 2, 7, 0, 5, 9, 3]
+
+------------ITERATION =  9 ---------------------
+
+
+####-------- EMPLOYED BEE PHASE -------#########
+
+Food Source =  0
+Epoch 1/1
+ - 2s - loss: 0.5883 - accuracy: 0.6883
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+Loss =  0.5882505548000335
+Food Source =  1
+Epoch 1/1
+ - 1s - loss: 6.0271 - accuracy: 0.5400
+Loss =  5.941269760131836
+Food Source =  2
+Epoch 1/1
+ - 2s - loss: 0.6188 - accuracy: 0.6850
+Loss =  0.5504929649829865
+Food Source =  3
+Epoch 1/1
+ - 1s - loss: 0.8448 - accuracy: 0.5300
+Loss =  0.7828602019945781
+Food Source =  4
+Epoch 1/1
+ - 3s - loss: 0.6315 - accuracy: 0.6883
+Loss =  0.5116257496674855
+Food Source =  5
+Epoch 1/1
+ - 5s - loss: 0.6066 - accuracy: 0.6750
+Loss =  0.5443229750792186
+Food Source =  6
+Epoch 1/1
+ - 6s - loss: 8.6905 - accuracy: 0.5117
+Epoch 1/1
+ - 4s - loss: 8.6942 - accuracy: 0.4750
+Loss =  8.690474497477213
+Food Source =  7
+Epoch 1/1
+ - 5s - loss: 15.1910 - accuracy: 0.5900
+Loss =  15.143438822428385
+Food Source =  8
+Epoch 1/1
+ - 1s - loss: 0.8296 - accuracy: 0.5367
+Loss =  0.6772588793436686
+Food Source =  9
+Epoch 1/1
+ - 2s - loss: 14.5893 - accuracy: 0.5550
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+Loss =  14.589344673156738
+
+####-------- EMPLOYED BEE PHASE ENDS -------#########
+
+Probabilities = 
+ [0.9565796942989414, 0.2959962977544468, 0.9774391148015722, 0.8630789969840127, 1.0000000000000002, 0.9809447224800562, 0.24039180176934735, 0.18427344320285832, 0.9111229527269531, 0.1872687853930971]
+
+####-------- ONLOOKER BEE PHASE -------#########
+
+bee =  0
+foodSource =  0
+Epoch 1/1
+ - 1s - loss: 0.5814 - accuracy: 0.7050
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+bee =  1
+foodSource =  1
+bee =  1
+foodSource =  2
+Epoch 1/1
+ - 2s - loss: 0.6009 - accuracy: 0.7000
+bee =  2
+foodSource =  3
+Epoch 1/1
+ - 1s - loss: 0.8179 - accuracy: 0.5300
+bee =  3
+foodSource =  4
+Epoch 1/1
+ - 3s - loss: 0.5762 - accuracy: 0.6967
+bee =  4
+foodSource =  5
+Epoch 1/1
+ - 6s - loss: 0.5387 - accuracy: 0.7467
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+bee =  5
+foodSource =  6
+Epoch 1/1
+ - 5s - loss: 8.6293 - accuracy: 0.5250
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+bee =  6
+foodSource =  7
+bee =  6
+foodSource =  8
+Epoch 1/1
+ - 1s - loss: 0.7334 - accuracy: 0.5950
+bee =  7
+foodSource =  9
+bee =  7
+foodSource =  0
+Epoch 1/1
+ - 2s - loss: 0.6168 - accuracy: 0.6933
+bee =  8
+foodSource =  1
+Epoch 1/1
+ - 1s - loss: 5.9556 - accuracy: 0.5767
+bee =  9
+foodSource =  2
+Epoch 1/1
+ - 1s - loss: 0.6391 - accuracy: 0.6617
+
+####-------- ONLOOKER BEE PHASE ENDS -------#########
+
+Trial =  [1, 11, 7, 2, 4, 0, 0, 6, 11, 0]
+
+####-------- SCOUT BEE PHASE -------#########
+
+1 th particle was Discarded from the population
+
+####-------- SCOUT BEE PHASE ENDS -------#########
+
+LOSS =  [0.581416130065918, 5.941269760131836, 0.5504929649829865, 0.7828602019945781, 0.5116257496674855, 0.5387486616770426, 8.629332275390626, 15.143438822428385, 0.6772588793436686, 14.589344673156738]
+TRIAL =  [1, 0, 7, 2, 4, 0, 0, 6, 11, 0]
+
+------------ITERATION =  10 ---------------------
+
+
+####-------- EMPLOYED BEE PHASE -------#########
+
+Food Source =  0
+Epoch 1/1
+ - 1s - loss: 0.7713 - accuracy: 0.5800
+Loss =  0.581416130065918
+Food Source =  1
+Epoch 1/1
+ - 3s - loss: 0.6120 - accuracy: 0.6700
+Epoch 1/1
+ - 3s - loss: 0.6243 - accuracy: 0.6883
+Loss =  0.6119816668828328
+Food Source =  2
+Epoch 1/1
+ - 1s - loss: 0.6339 - accuracy: 0.6950
+Loss =  0.5504929649829865
+Food Source =  3
+Epoch 1/1
+ - 1s - loss: 0.7596 - accuracy: 0.5717
+!!!!!!!!!!!!!!!!!!!!!        THE NEIGHBOURING SOLUTION WAS SELECTION ABOVE THE PRESENT FOOOD SOURCE        !!!!!!!!!!!!!!!!!!!!!
+Loss =  0.7595799732208252
+Food Source =  4
+Epoch 1/1
+ - 3s - loss: 0.5595 - accuracy: 0.7083
+Loss =  0.5116257496674855
+Food Source =  5
+Epoch 1/1
+ - 3s - loss: 0.6248 - accuracy: 0.6850
+Loss =  0.5387486616770426
+Food Source =  6
+Epoch 1/1
+ - 5s - loss: 8.7259 - accuracy: 0.4883
+Loss =  8.629332275390626
+Food Source =  7
+Epoch 1/1
+ - 4s - loss: 15.3461 - accuracy: 0.5883
+Loss =  15.143438822428385
+Food Source =  8
+Epoch 1/1
+ - 1s - loss: 0.7624 - accuracy: 0.5783
+Loss =  0.6772588793436686
+Food Source =  9
+Epoch 1/1
+ - 2s - loss: 14.7119 - accuracy: 0.5483
+Loss =  14.589344673156738
+
+####-------- EMPLOYED BEE PHASE ENDS -------#########
+
+Probabilities = 
+ [0.960281584862821, 0.9439693841751503, 0.9774391148015722, 0.8731749595958832, 1.0000000000000002, 0.9841360571634896, 0.24128323084017245, 0.18427344320285832, 0.9111229527269531, 0.1872687853930971]
+
+####-------- ONLOOKER BEE PHASE -------#########
+
+bee =  0
+foodSource =  0
+Epoch 1/1
+ - 2s - loss: 0.6214 - accuracy: 0.6983
+bee =  1
+foodSource =  1
+Epoch 1/1
+ - 2s - loss: 0.6603 - accuracy: 0.6800
+bee =  2
+foodSource =  2
+Epoch 1/1
+ - 1s - loss: 0.6772 - accuracy: 0.6533
+bee =  3
+foodSource =  3
+Epoch 1/1
+ - 1s - loss: 0.8013 - accuracy: 0.5333
+bee =  4
+foodSource =  4
+Epoch 1/1
+ - 2s - loss: 0.6128 - accuracy: 0.6733
+bee =  5
+foodSource =  5
+Epoch 1/1
+ - 3s - loss: 0.5857 - accuracy: 0.6967
+bee =  6
+foodSource =  6
+bee =  6
+foodSource =  7
+bee =  6
+foodSource =  8
+Epoch 1/1
+ - 1s - loss: 0.7025 - accuracy: 0.6100
+bee =  7
+foodSource =  9
+bee =  7
+foodSource =  0
+Epoch 1/1
+ - 2s - loss: 0.6245 - accuracy: 0.6950
+bee =  8
+foodSource =  1
+Epoch 1/1
+ - 3s - loss: 0.6713 - accuracy: 0.6817
+bee =  9
+foodSource =  2
+Epoch 1/1
+ - 2s - loss: 0.5986 - accuracy: 0.7117
+
+####-------- ONLOOKER BEE PHASE ENDS -------#########
+
+Trial =  [4, 2, 10, 1, 6, 2, 1, 7, 13, 1]
+
+####-------- SCOUT BEE PHASE -------#########
+
+No trial is greater than the limit 
+LOSS =  [0.581416130065918, 0.6119816668828328, 0.5504929649829865, 0.7595799732208252, 0.5116257496674855, 0.5387486616770426, 8.629332275390626, 15.143438822428385, 0.6772588793436686, 14.589344673156738]
+TRIAL =  [4, 2, 10, 1, 6, 2, 1, 7, 13, 1]
+Final losses =  [0.581416130065918, 0.6119816668828328, 0.5504929649829865, 0.7595799732208252, 0.5116257496674855, 0.5387486616770426, 8.629332275390626, 15.143438822428385, 0.6772588793436686, 14.589344673156738]
+Final Accuracies =  [0.705, 0.67, 0.71, 0.57166666, 0.745, 0.74666667, 0.525, 0.57166666, 0.6166667, 0.555]
+Final Trial =  [4, 2, 10, 1, 6, 2, 1, 7, 13, 1]
+
+
+
+The best model produced is as follows
+the model =  4_conv_168 | 6_conv_52 | 4_conv_84 | -1_fc_2 | 
+Accuracy =  0.745
+Loss =  0.5116257496674855
+Epoch 1/50
+ - 1s - loss: 0.2524 - accuracy: 0.9542
+Epoch 2/50
+ - 1s - loss: 0.2103 - accuracy: 0.9808
+Epoch 3/50
+ - 1s - loss: 0.1976 - accuracy: 0.9875
+Epoch 4/50
+ - 1s - loss: 0.1892 - accuracy: 0.9883
+Epoch 5/50
+ - 1s - loss: 0.1903 - accuracy: 0.9858
+Epoch 6/50
+ - 1s - loss: 0.1809 - accuracy: 0.9892
+Epoch 7/50
+ - 1s - loss: 0.1740 - accuracy: 0.9900
+Epoch 8/50
+ - 1s - loss: 0.1653 - accuracy: 0.9917
+Epoch 9/50
+ - 1s - loss: 0.1666 - accuracy: 0.9875
+Epoch 10/50
+ - 1s - loss: 0.1568 - accuracy: 0.9942
+Epoch 11/50
+ - 1s - loss: 0.1526 - accuracy: 0.9942
+Epoch 12/50
+ - 1s - loss: 0.1482 - accuracy: 0.9933
+Epoch 13/50
+ - 1s - loss: 0.1440 - accuracy: 0.9933
+Epoch 14/50
+ - 1s - loss: 0.1448 - accuracy: 0.9917
+Epoch 15/50
+ - 1s - loss: 0.1363 - accuracy: 0.9933
+Epoch 16/50
+ - 1s - loss: 0.1349 - accuracy: 0.9933
+Epoch 17/50
+ - 1s - loss: 0.1302 - accuracy: 0.9950
+Epoch 18/50
+ - 1s - loss: 0.1319 - accuracy: 0.9950
+Epoch 19/50
+ - 1s - loss: 0.1254 - accuracy: 0.9925
+Epoch 20/50
+ - 1s - loss: 0.1288 - accuracy: 0.9925
+Epoch 21/50
+ - 1s - loss: 0.1209 - accuracy: 0.9942
+Epoch 22/50
+ - 1s - loss: 0.1257 - accuracy: 0.9908
+Epoch 23/50
+ - 1s - loss: 0.1245 - accuracy: 0.9958
+Epoch 24/50
+ - 1s - loss: 0.1176 - accuracy: 0.9917
+Epoch 25/50
+ - 1s - loss: 0.1163 - accuracy: 0.9925
+Epoch 26/50
+ - 1s - loss: 0.1146 - accuracy: 0.9917
+Epoch 27/50
+ - 1s - loss: 0.1130 - accuracy: 0.9942
+Epoch 28/50
+ - 1s - loss: 0.1125 - accuracy: 0.9933
+Epoch 29/50
+ - 1s - loss: 0.1075 - accuracy: 0.9908
+Epoch 30/50
+ - 1s - loss: 0.1055 - accuracy: 0.9950
+Epoch 31/50
+ - 1s - loss: 0.1068 - accuracy: 0.9942
+Epoch 32/50
+ - 1s - loss: 0.1071 - accuracy: 0.9925
+Epoch 33/50
+ - 1s - loss: 0.1009 - accuracy: 0.9958
+Epoch 34/50
+ - 1s - loss: 0.0996 - accuracy: 0.9942
+Epoch 35/50
+ - 1s - loss: 0.0931 - accuracy: 0.9958
+Epoch 36/50
+ - 1s - loss: 0.0958 - accuracy: 0.9958
+Epoch 37/50
+ - 1s - loss: 0.0949 - accuracy: 0.9975
+Epoch 38/50
+ - 1s - loss: 0.0892 - accuracy: 0.9983
+Epoch 39/50
+ - 1s - loss: 0.0834 - accuracy: 0.9967
+Epoch 40/50
+ - 1s - loss: 0.0886 - accuracy: 0.9983
+Epoch 41/50
+ - 1s - loss: 0.0928 - accuracy: 0.9942
+Epoch 42/50
+ - 1s - loss: 0.0846 - accuracy: 0.9967
+Epoch 43/50
+ - 1s - loss: 0.0841 - accuracy: 0.9975
+Epoch 44/50
+ - 1s - loss: 0.0845 - accuracy: 0.9950
+Epoch 45/50
+ - 1s - loss: 0.0863 - accuracy: 0.9958
+Epoch 46/50
+ - 1s - loss: 0.0752 - accuracy: 0.9975
+Epoch 47/50
+ - 1s - loss: 0.0794 - accuracy: 0.9967
+Epoch 48/50
+ - 1s - loss: 0.0785 - accuracy: 0.9967
+Epoch 49/50
+ - 1s - loss: 0.0844 - accuracy: 0.9942
+Epoch 50/50
+ - 1s - loss: 0.0744 - accuracy: 0.9975
+Model metrics names are =  ['loss', 'accuracy']
+
+
+
+Complete training accuracy =  0.9975
+Complete training loss =  0.07437579174836477
+Complete training eval_loss =  0.6896032056045532
+Complete training eval_accuracy =  0.6026800274848938
+ALL LOSSES and all ACCURACIES
+[[ 3.75773054  3.75773054  0.58881297  0.58881297  0.58881297  0.58881297
+   0.58881297  0.60658661  0.58141613  0.58141613]
+ [ 0.68059978  5.94126976  5.94126976  5.94126976  5.94126976  5.94126976
+   5.94126976  5.94126976  5.94126976  0.61198167]
+ [ 0.64215316  0.60988087  0.60988087  0.60988087  0.60988087  0.57860027
+   0.55049296  0.55049296  0.55049296  0.55049296]
+ [ 4.63208585  4.63208585  4.63208585  4.63208585  4.63208585  4.63208585
+   0.79235401  0.7828602   0.7828602   0.75957997]
+ [ 0.49695692  0.49695692  0.49695692  0.49695692  0.59976852  0.58648388
+   0.51162575  0.51162575  0.51162575  0.51162575]
+ [ 0.71375663  0.71375663  0.71375663  0.56270151  0.54432298  0.54432298
+   0.54432298  0.54432298  0.53874866  0.53874866]
+ [ 0.73291956  0.5566921   0.5566921   0.5566921   0.5566921   0.5566921
+   0.5566921   0.5566921   8.62933228  8.62933228]
+ [15.15977861 15.15977861 15.15977861 15.14343882 15.14343882 15.14343882
+  15.14343882 15.14343882 15.14343882 15.14343882]
+ [ 0.73393137  0.67847485  0.67847485  0.67725888  0.67725888  0.67725888
+   0.67725888  0.67725888  0.67725888  0.67725888]
+ [14.64790306 14.64790306 14.63943306 14.63943306 14.60764512 14.60764512
+  14.60764512 14.60764512 14.58934467 14.58934467]]
+
+
+[[0.62833333 0.62833333 0.7266667  0.7266667  0.7266667  0.7266667
+  0.7266667  0.675      0.705      0.705     ]
+ [0.6433333  0.52666664 0.52666664 0.52666664 0.52666664 0.52666664
+  0.52666664 0.52666664 0.52666664 0.67      ]
+ [0.6333333  0.69166666 0.69166666 0.69166666 0.69166666 0.7083333
+  0.71       0.71       0.71       0.71      ]
+ [0.725      0.725      0.725      0.725      0.725      0.725
+  0.555      0.5566667  0.5566667  0.57166666]
+ [0.76666665 0.76666665 0.76666665 0.76666665 0.7        0.68833333
+  0.745      0.745      0.745      0.745     ]
+ [0.61833334 0.61833334 0.61833334 0.725      0.735      0.735
+  0.735      0.735      0.74666667 0.74666667]
+ [0.62833333 0.74833333 0.74833333 0.74833333 0.74833333 0.74833333
+  0.74833333 0.74833333 0.525      0.525     ]
+ [0.60833335 0.60833335 0.60833335 0.57166666 0.57166666 0.57166666
+  0.57166666 0.57166666 0.57166666 0.57166666]
+ [0.59833336 0.6533333  0.6533333  0.6166667  0.6166667  0.6166667
+  0.6166667  0.6166667  0.6166667  0.6166667 ]
+ [0.5516667  0.5516667  0.505      0.505      0.5283333  0.5283333
+  0.5283333  0.5283333  0.555      0.555     ]]
+
+
+BEST DISACRDED SOLUTION =  4_conv_151 | 5_conv_53 | 2_max_pool_-1 | -1_fc_2 | 
+Best Discarded soln accuracy =  0.76666665
+Epoch 1/50
+ - 1s - loss: 0.2399 - accuracy: 0.9658
+Epoch 2/50
+ - 1s - loss: 0.2021 - accuracy: 0.9900
+Epoch 3/50
+ - 1s - loss: 0.1859 - accuracy: 0.9967
+Epoch 4/50
+ - 1s - loss: 0.1806 - accuracy: 0.9950
+Epoch 5/50
+ - 1s - loss: 0.1787 - accuracy: 0.9892
+Epoch 6/50
+ - 1s - loss: 0.1743 - accuracy: 0.9908
+Epoch 7/50
+ - 1s - loss: 0.1647 - accuracy: 0.9967
+Epoch 8/50
+ - 1s - loss: 0.1546 - accuracy: 0.9950
+Epoch 9/50
+ - 1s - loss: 0.1554 - accuracy: 0.9958
+Epoch 10/50
+ - 1s - loss: 0.1550 - accuracy: 0.9917
+Epoch 11/50
+ - 1s - loss: 0.1486 - accuracy: 0.9933
+Epoch 12/50
+ - 1s - loss: 0.1446 - accuracy: 0.9933
+Epoch 13/50
+ - 1s - loss: 0.1386 - accuracy: 0.9942
+Epoch 14/50
+ - 1s - loss: 0.1397 - accuracy: 0.9900
+Epoch 15/50
+ - 1s - loss: 0.1379 - accuracy: 0.9958
+Epoch 16/50
+ - 1s - loss: 0.1317 - accuracy: 0.9942
+Epoch 17/50
+ - 1s - loss: 0.1300 - accuracy: 0.9942
+Epoch 18/50
+ - 1s - loss: 0.1257 - accuracy: 0.9942
+Epoch 19/50
+ - 1s - loss: 0.1314 - accuracy: 0.9892
+Epoch 20/50
+ - 1s - loss: 0.1214 - accuracy: 0.9967
+Epoch 21/50
+ - 1s - loss: 0.1209 - accuracy: 0.9933
+Epoch 22/50
+ - 1s - loss: 0.1185 - accuracy: 0.9975
+Epoch 23/50
+ - 1s - loss: 0.1145 - accuracy: 0.9958
+Epoch 24/50
+ - 1s - loss: 0.1121 - accuracy: 0.9958
+Epoch 25/50
+ - 1s - loss: 0.1110 - accuracy: 0.9950
+Epoch 26/50
+ - 1s - loss: 0.1067 - accuracy: 0.9967
+Epoch 27/50
+ - 1s - loss: 0.1058 - accuracy: 0.9942
+Epoch 28/50
+ - 1s - loss: 0.1007 - accuracy: 0.9975
+Epoch 29/50
+ - 1s - loss: 0.1013 - accuracy: 0.9967
+Epoch 30/50
+ - 1s - loss: 0.1014 - accuracy: 0.9975
+Epoch 31/50
+ - 1s - loss: 0.1007 - accuracy: 0.9958
+Epoch 32/50
+ - 1s - loss: 0.1028 - accuracy: 0.9975
+Epoch 33/50
+ - 1s - loss: 0.0911 - accuracy: 0.9983
+Epoch 34/50
+ - 1s - loss: 0.0944 - accuracy: 0.9975
+Epoch 35/50
+ - 1s - loss: 0.0931 - accuracy: 0.9992
+Epoch 36/50
+ - 1s - loss: 0.0893 - accuracy: 0.9975
+Epoch 37/50
+ - 1s - loss: 0.0881 - accuracy: 0.9983
+Epoch 38/50
+ - 1s - loss: 0.0930 - accuracy: 0.9958
+Epoch 39/50
+ - 1s - loss: 0.0848 - accuracy: 0.9967
+Epoch 40/50
+ - 1s - loss: 0.0832 - accuracy: 0.9983
+Epoch 41/50
+ - 1s - loss: 0.0834 - accuracy: 0.9958
+Epoch 42/50
+ - 1s - loss: 0.0781 - accuracy: 0.9975
+Epoch 43/50
+ - 1s - loss: 0.0785 - accuracy: 0.9967
+Epoch 44/50
+ - 1s - loss: 0.0756 - accuracy: 0.9967
+Epoch 45/50
+ - 1s - loss: 0.0741 - accuracy: 0.9992
+Epoch 46/50
+ - 1s - loss: 0.0755 - accuracy: 0.9983
+Epoch 47/50
+ - 1s - loss: 0.0768 - accuracy: 0.9958
+Epoch 48/50
+ - 1s - loss: 0.0738 - accuracy: 0.9975
+Epoch 49/50
+ - 1s - loss: 0.0703 - accuracy: 0.9967
+Epoch 50/50
+ - 1s - loss: 0.0714 - accuracy: 0.9992
+Model metrics names are =  ['loss', 'accuracy']
+
+
+
+Complete training accuracy =  0.99916667
+Complete training loss =  0.07141434212525685
+Complete training eval_loss of discarded solution =  0.09870535398960113
+Complete training eval_accuracy of discarded solution =  0.9876199960708618
+This run took: 1991.8977992534637 seconds.
+Run number: 2
