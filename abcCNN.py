@@ -190,8 +190,9 @@ class abcCNN:
 
         self.y_train = keras.utils.to_categorical(self.y_train, output_dim)
         self.y_test = keras.utils.to_categorical(self.y_test, output_dim)
-
-        self.x_train, X_test, self.y_train, y_test = train_test_split(self.x_train, self.y_train, test_size=0.9)
+        self.x_full_train = self.x_train
+        self.y_full_train = self.y_train
+        self.x_train, X_test, self.y_train, y_test = train_test_split(self.x_train, self.y_train, test_size=0.5)
 
         print("Initializing population...")
         self.population = Population(pop_size, min_layer, max_layer, input_width, input_height, input_channels, conv_prob, pool_prob, fc_prob, max_conv_kernel, max_out_ch, max_fc_neurons, output_dim)
@@ -286,10 +287,10 @@ class abcCNN:
             print("ALL ACCURACIES = ",self.allAccuracies)
 
     def model_fit_comp(self,min_loss_index,epochs_full_training):
-        hist,results = self.population.particle[min_loss_index].model_fit_complete(self.x_train,self.y_train,self.x_test,self.y_test,self.batch_size,epochs_full_training)
+        hist,results = self.population.particle[min_loss_index].model_fit_complete(self.x_full_train,self.y_full_train,self.x_test,self.y_test,self.batch_size,epochs_full_training)
         return hist,results
 
     def model_fit_comp_disacrded(self,epochs_full_training):
-        hist , results = self.discardedBestSolution.model_fit_complete(self.x_train,self.y_train,self.x_test,self.y_test,self.batch_size,epochs_full_training)
+        hist , results = self.discardedBestSolution.model_fit_complete(self.x_full_train,self.y_full_train,self.x_test,self.y_test,self.batch_size,epochs_full_training)
         return hist,results
 

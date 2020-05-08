@@ -127,13 +127,18 @@ def generateNewSolution(p1,p2):#p1 is the proper one and the p2 is the random ne
     p1_fc_idx = next((index for (index, d) in enumerate(p1) if d["type"] == "fc" or d["type"] == "keep_fc" or d["type"] == "remove_fc"))
     p2_fc_idx = next((index for (index, d) in enumerate(p2) if d["type"] == "fc" or d["type"] == "keep_fc" or d["type"] == "remove_fc"))
     #print("pos of fc_layer = ",p1_fc_idx ,"  ",p2_fc_idx)
-    pos_conv = np.random.randint(0,min(p1_fc_idx,p2_fc_idx))
+    if min(p1_fc_idx,p2_fc_idx) <= 0:
+        pos_conv = 0
+    else:
+        pos_conv = np.random.randint(0,min(p1_fc_idx,p2_fc_idx))
     #print(pos_conv)
     #pos_fc = np.random.randint(min(p1_fc_idx,p2_fc_idx),min(l1,l2))
-    while p1[pos_conv]['type'] != 'conv' and p2[pos_conv]['type']!= 'conv':
+    while p1[pos_conv]['type'] != 'conv' or p2[pos_conv]['type']!= 'conv':
         pos_conv += 1
         if pos_conv>min(p1_fc_idx,p2_fc_idx):
             pos_conv = 0
+            break
+
 
     #print("print pos of conv =",pos_conv)
     #print(pos_fc)

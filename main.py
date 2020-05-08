@@ -17,7 +17,7 @@ if __name__ == '__main__':
     dataset = "rectangles"
     # dataset = "rectangles-images"
     # dataset = "convex"
-    #dataset = "fashion-mnist"
+    # dataset = "fashion-mnist"
     # dataset = "mnist-random-background"
     # dataset = "mnist-background-images"
 
@@ -94,7 +94,8 @@ if __name__ == '__main__':
         #print("\n\n\nComplete training hist = ",hist)
         print("\n\n\nComplete training accuracy = ",hist.history["accuracy"][-1])
         print("Complete training loss = ", hist.history["loss"][-1])
-        print("Complete training eval = ", eval)
+        print("Complete training eval_loss = ", eval[0])
+        print("Complete training eval_accuracy = ",eval[1])
 
         all_best_accuracy.append(hist.history["accuracy"][-1])
         all_best_losses.append((hist.history["loss"][-1]))
@@ -106,6 +107,7 @@ if __name__ == '__main__':
         # Save best Best model weights to HDF5 file
         abc.population.particle[minLossIndex].model.save_weights(results_path + "best_model_weights_" + str(i) + "_run.h5")
 
+        print("ALL LOSSES and all ACCURACIES")
         print(np.transpose(abc.allLosses))
         print("\n")
         print(np.transpose(abc.allAccuracies))
@@ -119,7 +121,8 @@ if __name__ == '__main__':
         #print("\n\n\nComplete training hist of disacrded Solution = ", disacrded_hist)
         print("\n\n\nComplete training accuracy = ", disacrded_hist.history["accuracy"][-1])
         print("Complete training loss = ", disacrded_hist.history["loss"][-1])
-        print("Complete training eval of discarded solution = ", discarded_eval)
+        print("Complete training eval_loss of discarded solution = ", discarded_eval[0])
+        print("Complete training eval_accuracy of discarded solution = ", discarded_eval[1])
 
         all_discarded_best_accuracy.append(disacrded_hist.history["accuracy"][-1])
         all_discarded_best_losses.append(disacrded_hist.history["loss"][-1])
