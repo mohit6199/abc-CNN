@@ -46,5 +46,3 @@ To run this code, you will need the following packages installed on you machine:
 
 **Note2:** The algorithm's parameters can modified in the file ```main.py```.
 
-**Note3:** due to our limited resources, we cannot provide any support to the code in this repository.
-
